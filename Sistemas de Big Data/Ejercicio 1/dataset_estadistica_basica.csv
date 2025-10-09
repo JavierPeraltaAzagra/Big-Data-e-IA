@@ -1,0 +1,21 @@
+id,sexo,estudios,edad,altura_cm,peso_kg,imc,horas_estudio_semana,tazas_cafe_dia,sueno_horas,nota,aprobado,ciudad,ingresos_familiares,trabajo_parcial,fumador,pasos_dia,pantalla_horas,satisfaccion,fecha_alta,examenes_realizados,ausencias,cohorte,dispositivo
+1,Mujer,ASIR,34.0,168.1,80.8,28.6,12.5,2,9.6,7.87,True,Valladolid,3345.0,True,False,6376.0,2.2,4.0,2025-04-11,10,3,2024,Móvil
+2,Hombre,Ciberseguridad,26.0,172.8,76.5,25.6,14.0,2,7.3,6.0,True,Madrid,3295.0,False,True,9868.0,4.8,1.0,2025-02-15,10,2,2024,Portátil
+3,Mujer,DAW,28.0,171.6,79.6,27.0,7.2,1,7.6,9.77,True,Bilbao,2395.0,False,False,11002.0,5.6,,2024-02-03,4,4,2024,Móvil
+4,Mujer,DAM,25.0,177.8,55.1,17.4,12.2,0,5.7,4.91,False,Valladolid,1542.0,True,False,7620.0,8.7,1.0,2024-02-20,3,3,2023,Portátil
+5,Hombre,DAM,24.0,178.1,76.0,24.0,15.4,2,5.5,6.89,True,Valencia,3460.0,False,False,5559.0,5.2,1.0,2025-02-06,4,1,2025,Portátil
+6,Mujer,Data Science,20.0,153.8,68.4,28.9,15.7,4,8.9,6.44,True,Alicante,2151.0,False,False,12732.0,0.3,1.0,2025-03-02,3,2,2023,PC
+7,Mujer,Data Science,28.0,,66.2,30.4,21.3,2,5.9,6.32,True,Pamplona,2301.0,True,False,5431.0,4.8,5.0,2024-03-06,4,8,2023,Portátil
+8,Mujer,DAM,20.0,180.0,82.4,25.4,19.7,1,5.7,6.29,True,Pamplona,1928.0,False,False,5072.0,10.5,3.0,2023-09-03,3,3,2023,PC
+9,Hombre,DAM,29.0,181.9,,27.1,6.0,1,7.0,6.69,True,Madrid,1488.0,True,False,2063.0,,2.0,2024-06-24,5,3,2024,Portátil
+10,Hombre,ASIR,32.0,,93.5,36.6,22.1,2,6.9,8.03,True,Zaragoza,1025.0,True,True,9990.0,3.4,1.0,2024-10-19,0,6,2024,Tablet
+11,Hombre,DAM,27.0,151.4,87.8,38.3,8.8,0,5.9,8.98,True,Zaragoza,2706.0,True,False,8921.0,6.2,3.0,2024-06-23,3,2,2023,Tablet
+12,Mujer,Data Science,23.0,171.0,70.7,24.2,18.3,1,6.6,12.0,True,Málaga,1573.0,False,False,12545.0,3.5,4.0,2025-05-18,4,5,2024,PC
+13,Mujer,DAW,28.0,179.3,76.2,23.7,12.4,1,8.5,7.97,True,Pamplona,4648.0,False,False,3026.0,2.3,5.0,2025-02-26,1,1,2024,Portátil
+14,Mujer,DAM,,188.0,81.2,23.0,9.5,6,6.0,5.24,True,Sevilla,1331.0,True,True,10145.0,4.3,3.0,2025-02-09,11,3,2023,PC
+15,Hombre,Ciberseguridad,31.0,175.2,73.5,23.9,1.2,4,5.3,7.88,True,Zaragoza,1194.0,True,False,6675.0,5.2,4.0,2023-09-14,8,4,2025,PC
+16,Hombre,DAM,18.0,166.3,73.6,26.6,11.0,0,8.1,5.13,True,Málaga,2608.0,True,False,8515.0,1.3,5.0,2025-03-25,11,3,2024,Portátil
+17,Mujer,DAW,23.0,161.1,,31.6,2.6,2,7.6,8.46,True,Valladolid,3423.0,True,True,2381.0,,,2025-01-18,7,2,2023,Portátil
+18,Hombre,DAM,18.0,170.1,71.3,24.6,17.8,3,6.3,10.48,True,Valladolid,2252.0,False,True,10170.0,5.0,2.0,2024-05-23,1,2,2025,Portátil
+19,Mujer,DAM,18.0,167.0,63.2,22.7,21.1,4,5.1,6.28,True,Sevilla,2658.0,False,False,8466.0,4.2,5.0,2024-09-29,11,2,2025,PC
+20,Mujer,DAM,33.0,159.8,67.0,26.2,7.2,2,6.1,2.55,False,Alicante,725.0,False,False,6403.0,5.8,3.0,2025-03-05,5,1,2024,Móvil
