@@ -1,0 +1,29 @@
+Crea un archivo llamado mini_vehiculos.pl
+Añade los siguientes hechos:
+coche es un vehículo
+moto es un vehículo
+bici es un vehículo
+Usa el predicado:
+vehiculo(X).
+
+Añade las siguientes propiedades:
+la moto tiene 2 ruedas
+el coche tiene 4 ruedas
+la bici tiene 2 ruedas
+Usa el predicado:
+ruedas(Vehiculo, Numero).
+
+Crea una regla:
+es_de_dos_ruedas(V)
+que se cumpla si el vehículo tiene exactamente 2 ruedas.
+
+Ejemplo esperado:
+?- es_de_dos_ruedas(X).
+X = moto ;
+X = bici.
+
+Realiza estas consultas y enseña la salida en pantalla:
+vehiculo(X).
+ruedas(moto, N).
+es_de_dos_ruedas(X).
+es_de_dos_ruedas(coche).
