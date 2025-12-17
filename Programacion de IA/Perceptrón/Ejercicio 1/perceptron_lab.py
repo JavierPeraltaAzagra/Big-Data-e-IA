@@ -1,4 +1,5 @@
 import numpy as np
+import matplotlib.pyplot as plt
 
 class Perceptron:
     """
@@ -31,17 +32,17 @@ class Perceptron:
             for idx, x_i in enumerate(X):
                 # --- TU CÓDIGO AQUÍ (TODO 1) ---
                 # 1. Haz una predicción usando el método predict() que has programado abajo
-                # y_predicted = ...
+                y_predicted = self.predict(x_i)
                 
                 # 2. Calcula la actualización (update)
                 # Fórmula: tasa_aprendizaje * (valor_real - valor_predicho)
-                # update = ...
+                update = self.learning_rate * (y[idx] - y_predicted)
                 
                 # 3. Actualiza los pesos y el sesgo
                 # Fórmula pesos: peso_actual + (update * entrada)
                 # Fórmula bias: bias_actual + update
-                # self.weights = ...
-                # self.bias = ...
+                self.weights = self.weights + (update * x_i)
+                self.bias = self.bias + update
                 
                 # -------------------------------
                 
@@ -70,7 +71,7 @@ class Perceptron:
         Pista: Usa np.where() o un if/else simple.
         """
         # --- TU CÓDIGO AQUÍ (TODO 3) ---
-        prediction = np.where(X >= 0, 1, 0)
+        prediction = np.where(self.net_input(X) >= 0, 1, 0)
         return prediction
 
 # --- ZONA DE PRUEBAS (NO MODIFICAR) ---
@@ -89,6 +90,17 @@ if __name__ == "__main__":
         
         test_val = np.array([1, 1])
         print(f"Prueba [1, 1]: {ppn.predict(test_val)} (Esperado: 1)")
+
+        #TODO Mostrar los resultados en un gráfico scatter
+        plt.scatter(X, y, label = "0", color = "blue")
+        #plt.scatter(x2, y2, label = "1", color = "red")
+
+        plt.title("Gráfico de dispersión")
+        plt.xlabel("Eje X")
+        plt.ylabel("Eje Y")
+        plt.legend()
+
+        plt.show()
         
     except Exception as e:
         print(f"\nERROR: Algo falta por implementar.\nMensaje: {e}")
