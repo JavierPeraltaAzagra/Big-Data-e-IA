@@ -41,17 +41,23 @@ prueba_verdad_de(Diagnosis, Caracteristica):- not(conocido(is_false(Caracteristi
 pregunta_sobre(Diagnosis, Caracteristica, Reply), Reply = si.
 pregunta_sobre(Diagnosis, Caracteristica, Reply):- write('¿El animal que estoy intentando identificar ('),
 write(Diagnosis), write(') cumple la caracteristica: "'), write(Caracteristica), write('"? '), nl,
-write('Responde si/no/porque: '),
+write('Responde si/no/nsnc/porque: '),
 read(Respuesta), process(Diagnosis, Caracteristica, Respuesta, Reply).
 process(Diagnosis, Caracteristica, si, si):- asserta(conocido(Caracteristica)).
 process(Diagnosis, Caracteristica, no, no):- asserta(conocido(is_false(Caracteristica))).
+
+
+/* TODO nsnc*/
+process(Diagnosis, Caracteristica, nsnc, desconocido):- asserta(conocido(Caracteristica)).
+
+
 process(Diagnosis, Caracteristica, porque, Reply):- nl,
 write('Estoy comprobando si el animal puede ser '),
 write(Diagnosis), write('.'), nl, write('Para esto necesito saber si es cierto que: "'),
 write(Caracteristica), write('".'), nl, pregunta_sobre(Diagnosis, Caracteristica, Reply).
 process(Diagnosis, Caracteristica, Respuesta, Reply):- Respuesta \== no,
-Respuesta \== si, Respuesta \== porque, nl,
-write('Debes contestar si, no o porque.'), nl,
+Respuesta \== si, Respuesta \== porque, Respuesta \== nsnc, nl,
+write('Debes contestar si, no, nsnc o porque.'), nl,
 pregunta_sobre(Diagnosis, Caracteristica, Reply).
 escribe_diagnostico(Diagnosis):- write('Mi conclusion es que el animal es: '),
 write(Diagnosis), write('.'), nl.
