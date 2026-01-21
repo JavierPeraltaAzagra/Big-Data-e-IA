@@ -1,6 +1,6 @@
 Como ejecutar
 -------------
-consulta.
+consulta_multi.
 
 Pruebas
 -------
@@ -8,14 +8,11 @@ Tigre -> es un mamífero? si.
 	 es carnívoro? si.
 	 tiene color leonado? si.
 	 tiene puntos negros? no.
-	 tiene rayas negras? si.
+
 Pingüino -> es un mamífero? no.
 	    es un ave? si.
 	    no vuela? si.
 	    tiene el cuello largo? porque.
 	    tiene el cuello largo? no.
-	    sabe nadar? si.
-	    tiene color blanco con negro? si.
-Fallo -> es un mamífero? no.
-	 es un ave? no.
-	 es un reptil? no.
+
+Fallo -> El programa no admite un fallo, si dices que no a todas las respuestas, te sacará el último animal que no hayas descartado nada (en mi caso, si descarto los mamíferos y las aves, me queda el cocodrilo que es un reptil y me lo saca como respuesta).
