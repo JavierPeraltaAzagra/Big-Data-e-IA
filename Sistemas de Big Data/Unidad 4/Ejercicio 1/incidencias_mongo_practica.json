@@ -1,0 +1,4070 @@
+[
+  {
+    "titulo": "Caída de servicio en almacenamiento #0001",
+    "prioridad": 2,
+    "estado": "abierta",
+    "tecnico": "Irene",
+    "tags": [
+      "api"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-28T14:07:00Z"
+    }
+  },
+  {
+    "titulo": "Timeout al acceder a almacenamiento #0002",
+    "prioridad": 2,
+    "estado": "abierta",
+    "tecnico": "SinAsignar",
+    "tags": [
+      "gateway",
+      "performance"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-19T08:02:00Z"
+    }
+  },
+  {
+    "titulo": "Fallo intermitente en cola Kafka #0003",
+    "prioridad": 4,
+    "estado": "cerrada",
+    "tecnico": "Irene",
+    "tags": [
+      "ops",
+      "kafka"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-13T04:51:00Z"
+    },
+    "minutosResolucion": 119,
+    "cerradaEn": {
+      "$date": "2025-10-13T06:50:00Z"
+    }
+  },
+  {
+    "titulo": "Desalineación de permisos en módulo de facturas #0004",
+    "prioridad": 2,
+    "estado": "abierta",
+    "tecnico": "SinAsignar",
+    "tags": [
+      "gateway",
+      "api"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-16T15:54:00Z"
+    }
+  },
+  {
+    "titulo": "Timeout al acceder a API de pedidos #0005",
+    "prioridad": 5,
+    "estado": "en_progreso",
+    "tecnico": "Nora",
+    "tags": [
+      "backend",
+      "frontend"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-13T20:53:00Z"
+    }
+  },
+  {
+    "titulo": "Duplicados detectados en pasarela de pago #0006",
+    "prioridad": 3,
+    "estado": "cerrada",
+    "tecnico": "Marta",
+    "tags": [
+      "monitoring",
+      "payments"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-06T19:14:00Z"
+    },
+    "minutosResolucion": 124,
+    "cerradaEn": {
+      "$date": "2025-11-06T21:18:00Z"
+    }
+  },
+  {
+    "titulo": "Timeout al acceder a buscador #0007",
+    "prioridad": 4,
+    "estado": "en_progreso",
+    "tecnico": "Alex",
+    "tags": [
+      "payments",
+      "gateway"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-29T22:17:00Z"
+    }
+  },
+  {
+    "titulo": "Error 404 en portal #0008",
+    "prioridad": 4,
+    "estado": "cerrada",
+    "tecnico": "Sergio",
+    "tags": [
+      "ops"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-17T12:17:00Z"
+    },
+    "minutosResolucion": 104,
+    "cerradaEn": {
+      "$date": "2025-10-17T14:01:00Z"
+    }
+  },
+  {
+    "titulo": "Desalineación de permisos en dashboard #0009",
+    "prioridad": 4,
+    "estado": "cerrada",
+    "tecnico": "Lucia",
+    "tags": [
+      "search"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-04T03:13:00Z"
+    },
+    "minutosResolucion": 58,
+    "cerradaEn": {
+      "$date": "2025-10-04T04:11:00Z"
+    }
+  },
+  {
+    "titulo": "Desalineación de permisos en pasarela de pago #0010",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "Nora",
+    "tags": [
+      "performance",
+      "ux"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-12T15:08:00Z"
+    }
+  },
+  {
+    "titulo": "Desalineación de permisos en API de pedidos #0011",
+    "prioridad": 4,
+    "estado": "en_progreso",
+    "tecnico": "Alex",
+    "tags": [
+      "payments"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-07T05:32:00Z"
+    }
+  },
+  {
+    "titulo": "No se cargan datos en API de pedidos #0012",
+    "prioridad": 3,
+    "estado": "en_progreso",
+    "tecnico": "Nora",
+    "tags": [
+      "auth",
+      "api",
+      "gateway"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-17T18:24:00Z"
+    }
+  },
+  {
+    "titulo": "No se cargan datos en almacenamiento #0013",
+    "prioridad": 1,
+    "estado": "abierta",
+    "tecnico": "Nora",
+    "tags": [
+      "payments",
+      "storage",
+      "api"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-13T20:27:00Z"
+    }
+  },
+  {
+    "titulo": "Lentitud en ingesta ETL #0014",
+    "prioridad": 2,
+    "estado": "abierta",
+    "tecnico": "SinAsignar",
+    "tags": [
+      "search",
+      "auth"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-09T19:09:00Z"
+    }
+  },
+  {
+    "titulo": "Lentitud en dashboard #0015",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "SinAsignar",
+    "tags": [
+      "search"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-11T13:03:00Z"
+    }
+  },
+  {
+    "titulo": "Desalineación de permisos en módulo de facturas #0016",
+    "prioridad": 3,
+    "estado": "en_progreso",
+    "tecnico": "Nora",
+    "tags": [
+      "mobile"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-06T19:42:00Z"
+    }
+  },
+  {
+    "titulo": "Desbordamiento de logs en pasarela de pago #0017",
+    "prioridad": 4,
+    "estado": "en_progreso",
+    "tecnico": "Marta",
+    "tags": [
+      "monitoring",
+      "security",
+      "storage"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-02T13:46:00Z"
+    }
+  },
+  {
+    "titulo": "Error 404 en API de pedidos #0018",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "Irene",
+    "tags": [
+      "auth",
+      "backend"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-10T22:04:00Z"
+    }
+  },
+  {
+    "titulo": "Timeout al acceder a dashboard #0019",
+    "prioridad": 1,
+    "estado": "cerrada",
+    "tecnico": "Irene",
+    "tags": [
+      "search"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-08T23:02:00Z"
+    },
+    "minutosResolucion": 115,
+    "cerradaEn": {
+      "$date": "2025-11-09T00:57:00Z"
+    }
+  },
+  {
+    "titulo": "Desalineación de permisos en Nginx #0020",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Sergio",
+    "tags": [
+      "api"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-25T22:30:00Z"
+    }
+  },
+  {
+    "titulo": "Duplicados detectados en pasarela de pago #0021",
+    "prioridad": 1,
+    "estado": "cerrada",
+    "tecnico": "Lucia",
+    "tags": [
+      "api",
+      "frontend",
+      "db"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-18T20:29:00Z"
+    },
+    "minutosResolucion": 56,
+    "cerradaEn": {
+      "$date": "2025-10-18T21:25:00Z"
+    }
+  },
+  {
+    "titulo": "Lentitud en módulo de facturas #0022",
+    "prioridad": 2,
+    "estado": "en_progreso",
+    "tecnico": "Irene",
+    "tags": [
+      "data-quality"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-09T12:12:00Z"
+    }
+  },
+  {
+    "titulo": "Desbordamiento de logs en pasarela de pago #0023",
+    "prioridad": 3,
+    "estado": "en_progreso",
+    "tecnico": "Alex",
+    "tags": [
+      "data-quality",
+      "payments",
+      "performance"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-05T12:03:00Z"
+    }
+  },
+  {
+    "titulo": "Desalineación de permisos en buscador #0024",
+    "prioridad": 2,
+    "estado": "cerrada",
+    "tecnico": "Alex",
+    "tags": [
+      "kafka",
+      "security",
+      "streaming"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-07T05:25:00Z"
+    },
+    "minutosResolucion": 132,
+    "cerradaEn": {
+      "$date": "2025-11-07T07:37:00Z"
+    }
+  },
+  {
+    "titulo": "Desbordamiento de logs en módulo de facturas #0025",
+    "prioridad": 1,
+    "estado": "en_progreso",
+    "tecnico": "Nora",
+    "tags": [
+      "ux"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-03T19:37:00Z"
+    }
+  },
+  {
+    "titulo": "Timeout al acceder a API de pedidos #0026",
+    "prioridad": 1,
+    "estado": "cerrada",
+    "tecnico": "Irene",
+    "tags": [
+      "backend"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-08T01:03:00Z"
+    },
+    "minutosResolucion": 152,
+    "cerradaEn": {
+      "$date": "2025-10-08T03:35:00Z"
+    }
+  },
+  {
+    "titulo": "Incidencia de compatibilidad en cola Kafka #0027",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "SinAsignar",
+    "tags": [
+      "ux"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-08T07:36:00Z"
+    }
+  },
+  {
+    "titulo": "No se cargan datos en cola Kafka #0028",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "Irene",
+    "tags": [
+      "billing"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-10T05:16:00Z"
+    }
+  },
+  {
+    "titulo": "Timeout al acceder a ingesta ETL #0029",
+    "prioridad": 1,
+    "estado": "cerrada",
+    "tecnico": "Sergio",
+    "tags": [
+      "api",
+      "backend",
+      "gateway"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-09T23:48:00Z"
+    },
+    "minutosResolucion": 149,
+    "cerradaEn": {
+      "$date": "2025-11-10T02:17:00Z"
+    }
+  },
+  {
+    "titulo": "Error 503 en ingesta ETL #0030",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Lucia",
+    "tags": [
+      "streaming",
+      "storage"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-04T06:56:00Z"
+    }
+  },
+  {
+    "titulo": "Caída de servicio en ingesta ETL #0031",
+    "prioridad": 5,
+    "estado": "abierta",
+    "tecnico": "Nora",
+    "tags": [
+      "api"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-10T02:42:00Z"
+    }
+  },
+  {
+    "titulo": "Error 401 en Nginx #0032",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Nora",
+    "tags": [
+      "kafka"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-13T08:38:00Z"
+    }
+  },
+  {
+    "titulo": "Desbordamiento de logs en Nginx #0033",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Alex",
+    "tags": [
+      "kafka",
+      "payments"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-05T17:17:00Z"
+    }
+  },
+  {
+    "titulo": "Incidencia de compatibilidad en dashboard #0034",
+    "prioridad": 5,
+    "estado": "abierta",
+    "tecnico": "Alex",
+    "tags": [
+      "monitoring"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-25T06:00:00Z"
+    }
+  },
+  {
+    "titulo": "Duplicados detectados en Nginx #0035",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "SinAsignar",
+    "tags": [
+      "etl",
+      "data-quality",
+      "api"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-19T16:08:00Z"
+    }
+  },
+  {
+    "titulo": "Fallo intermitente en Nginx #0036",
+    "prioridad": 5,
+    "estado": "abierta",
+    "tecnico": "Alex",
+    "tags": [
+      "payments",
+      "performance",
+      "auth"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-27T19:47:00Z"
+    }
+  },
+  {
+    "titulo": "Desalineación de permisos en buscador #0037",
+    "prioridad": 5,
+    "estado": "cerrada",
+    "tecnico": "Nora",
+    "tags": [
+      "api"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-04T13:42:00Z"
+    },
+    "minutosResolucion": 103,
+    "cerradaEn": {
+      "$date": "2025-11-04T15:25:00Z"
+    }
+  },
+  {
+    "titulo": "Error 404 en Nginx #0038",
+    "prioridad": 3,
+    "estado": "cerrada",
+    "tecnico": "Nora",
+    "tags": [
+      "data-quality",
+      "mobile"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-10T19:12:00Z"
+    },
+    "minutosResolucion": 70,
+    "cerradaEn": {
+      "$date": "2025-10-10T20:22:00Z"
+    }
+  },
+  {
+    "titulo": "Incidencia de compatibilidad en portal #0039",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Marta",
+    "tags": [
+      "api",
+      "kafka",
+      "payments"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-03T07:17:00Z"
+    }
+  },
+  {
+    "titulo": "Lentitud en almacenamiento #0040",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "Marta",
+    "tags": [
+      "storage"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-05T23:38:00Z"
+    }
+  },
+  {
+    "titulo": "Duplicados detectados en cola Kafka #0041",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Irene",
+    "tags": [
+      "backend"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-09T10:16:00Z"
+    }
+  },
+  {
+    "titulo": "No se cargan datos en dashboard #0042",
+    "prioridad": 5,
+    "estado": "abierta",
+    "tecnico": "Nora",
+    "tags": [
+      "ops",
+      "db"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-29T15:54:00Z"
+    }
+  },
+  {
+    "titulo": "Desalineación de permisos en portal #0043",
+    "prioridad": 3,
+    "estado": "en_progreso",
+    "tecnico": "Lucia",
+    "tags": [
+      "mobile",
+      "ux",
+      "streaming"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-09T12:26:00Z"
+    }
+  },
+  {
+    "titulo": "Timeout al acceder a buscador #0044",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "Marta",
+    "tags": [
+      "security"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-14T07:18:00Z"
+    }
+  },
+  {
+    "titulo": "Incidencia de compatibilidad en API de pedidos #0045",
+    "prioridad": 4,
+    "estado": "cerrada",
+    "tecnico": "Lucia",
+    "tags": [
+      "storage"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-04T04:57:00Z"
+    },
+    "minutosResolucion": 153,
+    "cerradaEn": {
+      "$date": "2025-11-04T07:30:00Z"
+    }
+  },
+  {
+    "titulo": "Timeout al acceder a almacenamiento #0046",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Irene",
+    "tags": [
+      "frontend"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-05T06:48:00Z"
+    }
+  },
+  {
+    "titulo": "Desalineación de permisos en dashboard #0047",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Irene",
+    "tags": [
+      "db",
+      "search"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-06T14:49:00Z"
+    }
+  },
+  {
+    "titulo": "Caída de servicio en portal #0048",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "SinAsignar",
+    "tags": [
+      "data-quality",
+      "payments"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-29T07:44:00Z"
+    }
+  },
+  {
+    "titulo": "Incidencia de compatibilidad en buscador #0049",
+    "prioridad": 2,
+    "estado": "cerrada",
+    "tecnico": "Irene",
+    "tags": [
+      "storage",
+      "gateway"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-25T02:15:00Z"
+    },
+    "minutosResolucion": 73,
+    "cerradaEn": {
+      "$date": "2025-10-25T03:28:00Z"
+    }
+  },
+  {
+    "titulo": "No se cargan datos en ingesta ETL #0050",
+    "prioridad": 3,
+    "estado": "cerrada",
+    "tecnico": "Irene",
+    "tags": [
+      "search",
+      "security"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-22T20:27:00Z"
+    },
+    "minutosResolucion": 67,
+    "cerradaEn": {
+      "$date": "2025-10-22T21:34:00Z"
+    }
+  },
+  {
+    "titulo": "Timeout al acceder a cola Kafka #0051",
+    "prioridad": 4,
+    "estado": "en_progreso",
+    "tecnico": "Nora",
+    "tags": [
+      "streaming"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-03T00:49:00Z"
+    }
+  },
+  {
+    "titulo": "Timeout al acceder a Nginx #0052",
+    "prioridad": 2,
+    "estado": "en_progreso",
+    "tecnico": "Irene",
+    "tags": [
+      "billing"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-14T23:57:00Z"
+    }
+  },
+  {
+    "titulo": "Error 504 en Nginx #0053",
+    "prioridad": 3,
+    "estado": "en_progreso",
+    "tecnico": "Irene",
+    "tags": [
+      "db",
+      "ux"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-18T17:21:00Z"
+    }
+  },
+  {
+    "titulo": "Incidencia de compatibilidad en buscador #0054",
+    "prioridad": 3,
+    "estado": "cerrada",
+    "tecnico": "Marta",
+    "tags": [
+      "performance",
+      "gateway",
+      "ux"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-21T16:00:00Z"
+    },
+    "minutosResolucion": 111,
+    "cerradaEn": {
+      "$date": "2025-10-21T17:51:00Z"
+    }
+  },
+  {
+    "titulo": "Incidencia de compatibilidad en portal #0055",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "Sergio",
+    "tags": [
+      "security",
+      "billing"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-02T13:24:00Z"
+    }
+  },
+  {
+    "titulo": "Fallo intermitente en ingesta ETL #0056",
+    "prioridad": 4,
+    "estado": "en_progreso",
+    "tecnico": "Alex",
+    "tags": [
+      "billing",
+      "security"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-09T00:25:00Z"
+    }
+  },
+  {
+    "titulo": "No se cargan datos en buscador #0057",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Sergio",
+    "tags": [
+      "performance"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-17T12:20:00Z"
+    }
+  },
+  {
+    "titulo": "Error 400 en pasarela de pago #0058",
+    "prioridad": 5,
+    "estado": "en_progreso",
+    "tecnico": "Nora",
+    "tags": [
+      "backend"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-02T03:47:00Z"
+    }
+  },
+  {
+    "titulo": "Incidencia de compatibilidad en buscador #0059",
+    "prioridad": 2,
+    "estado": "abierta",
+    "tecnico": "Alex",
+    "tags": [
+      "api"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-09T20:53:00Z"
+    }
+  },
+  {
+    "titulo": "Lentitud en portal #0060",
+    "prioridad": 2,
+    "estado": "cerrada",
+    "tecnico": "Sergio",
+    "tags": [
+      "api",
+      "payments",
+      "streaming"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-31T04:16:00Z"
+    },
+    "minutosResolucion": 152,
+    "cerradaEn": {
+      "$date": "2025-10-31T06:48:00Z"
+    }
+  },
+  {
+    "titulo": "Lentitud en pasarela de pago #0061",
+    "prioridad": 5,
+    "estado": "en_progreso",
+    "tecnico": "Marta",
+    "tags": [
+      "etl"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-09T23:19:00Z"
+    }
+  },
+  {
+    "titulo": "Duplicados detectados en Nginx #0062",
+    "prioridad": 5,
+    "estado": "cerrada",
+    "tecnico": "Sergio",
+    "tags": [
+      "ux",
+      "frontend"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-05T16:44:00Z"
+    },
+    "minutosResolucion": 73,
+    "cerradaEn": {
+      "$date": "2025-10-05T17:57:00Z"
+    }
+  },
+  {
+    "titulo": "Desbordamiento de logs en Nginx #0063",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Lucia",
+    "tags": [
+      "monitoring"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-28T23:21:00Z"
+    }
+  },
+  {
+    "titulo": "Desbordamiento de logs en almacenamiento #0064",
+    "prioridad": 4,
+    "estado": "en_progreso",
+    "tecnico": "Sergio",
+    "tags": [
+      "gateway",
+      "search"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-08T20:46:00Z"
+    }
+  },
+  {
+    "titulo": "Timeout al acceder a almacenamiento #0065",
+    "prioridad": 5,
+    "estado": "cerrada",
+    "tecnico": "Alex",
+    "tags": [
+      "security"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-12T18:20:00Z"
+    },
+    "minutosResolucion": 68,
+    "cerradaEn": {
+      "$date": "2025-10-12T19:28:00Z"
+    }
+  },
+  {
+    "titulo": "Duplicados detectados en cola Kafka #0066",
+    "prioridad": 1,
+    "estado": "abierta",
+    "tecnico": "Marta",
+    "tags": [
+      "etl"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-27T08:42:00Z"
+    }
+  },
+  {
+    "titulo": "Lentitud en Nginx #0067",
+    "prioridad": 5,
+    "estado": "en_progreso",
+    "tecnico": "Sergio",
+    "tags": [
+      "etl"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-13T06:56:00Z"
+    }
+  },
+  {
+    "titulo": "Lentitud en pasarela de pago #0068",
+    "prioridad": 4,
+    "estado": "cerrada",
+    "tecnico": "Lucia",
+    "tags": [
+      "security",
+      "auth"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-22T04:35:00Z"
+    },
+    "minutosResolucion": 70,
+    "cerradaEn": {
+      "$date": "2025-10-22T05:45:00Z"
+    }
+  },
+  {
+    "titulo": "Duplicados detectados en buscador #0069",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "Marta",
+    "tags": [
+      "gateway"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-29T15:37:00Z"
+    }
+  },
+  {
+    "titulo": "Fallo intermitente en pasarela de pago #0070",
+    "prioridad": 2,
+    "estado": "abierta",
+    "tecnico": "Irene",
+    "tags": [
+      "gateway"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-12T21:19:00Z"
+    }
+  },
+  {
+    "titulo": "Duplicados detectados en ingesta ETL #0071",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "Nora",
+    "tags": [
+      "etl",
+      "streaming",
+      "data-quality"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-01T20:30:00Z"
+    }
+  },
+  {
+    "titulo": "Lentitud en almacenamiento #0072",
+    "prioridad": 2,
+    "estado": "en_progreso",
+    "tecnico": "Alex",
+    "tags": [
+      "billing",
+      "search"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-01T22:45:00Z"
+    }
+  },
+  {
+    "titulo": "Lentitud en Nginx #0073",
+    "prioridad": 3,
+    "estado": "en_progreso",
+    "tecnico": "Alex",
+    "tags": [
+      "search"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-13T11:30:00Z"
+    }
+  },
+  {
+    "titulo": "No se cargan datos en pasarela de pago #0074",
+    "prioridad": 4,
+    "estado": "en_progreso",
+    "tecnico": "Irene",
+    "tags": [
+      "ux"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-22T07:04:00Z"
+    }
+  },
+  {
+    "titulo": "Desalineación de permisos en buscador #0075",
+    "prioridad": 4,
+    "estado": "cerrada",
+    "tecnico": "Sergio",
+    "tags": [
+      "storage"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-06T09:35:00Z"
+    },
+    "minutosResolucion": 106,
+    "cerradaEn": {
+      "$date": "2025-10-06T11:21:00Z"
+    }
+  },
+  {
+    "titulo": "Timeout al acceder a ingesta ETL #0076",
+    "prioridad": 3,
+    "estado": "en_progreso",
+    "tecnico": "Sergio",
+    "tags": [
+      "mobile",
+      "api"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-14T00:55:00Z"
+    }
+  },
+  {
+    "titulo": "Desbordamiento de logs en buscador #0077",
+    "prioridad": 2,
+    "estado": "abierta",
+    "tecnico": "SinAsignar",
+    "tags": [
+      "performance"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-29T12:05:00Z"
+    }
+  },
+  {
+    "titulo": "No se cargan datos en pasarela de pago #0078",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "Lucia",
+    "tags": [
+      "data-quality"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-13T18:02:00Z"
+    }
+  },
+  {
+    "titulo": "Fallo intermitente en almacenamiento #0079",
+    "prioridad": 4,
+    "estado": "en_progreso",
+    "tecnico": "Nora",
+    "tags": [
+      "backend",
+      "frontend"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-19T11:07:00Z"
+    }
+  },
+  {
+    "titulo": "Desalineación de permisos en módulo de facturas #0080",
+    "prioridad": 3,
+    "estado": "en_progreso",
+    "tecnico": "Alex",
+    "tags": [
+      "streaming"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-02T06:52:00Z"
+    }
+  },
+  {
+    "titulo": "Error 401 en pasarela de pago #0081",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "Sergio",
+    "tags": [
+      "mobile",
+      "kafka"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-24T08:31:00Z"
+    }
+  },
+  {
+    "titulo": "Fallo intermitente en módulo de facturas #0082",
+    "prioridad": 4,
+    "estado": "cerrada",
+    "tecnico": "Alex",
+    "tags": [
+      "kafka",
+      "ux",
+      "frontend"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-30T02:53:00Z"
+    },
+    "minutosResolucion": 46,
+    "cerradaEn": {
+      "$date": "2025-10-30T03:39:00Z"
+    }
+  },
+  {
+    "titulo": "Duplicados detectados en API de pedidos #0083",
+    "prioridad": 5,
+    "estado": "abierta",
+    "tecnico": "SinAsignar",
+    "tags": [
+      "performance"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-09T01:37:00Z"
+    }
+  },
+  {
+    "titulo": "Error 502 en API de pedidos #0084",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "Nora",
+    "tags": [
+      "db",
+      "gateway"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-06T22:10:00Z"
+    }
+  },
+  {
+    "titulo": "Desalineación de permisos en pasarela de pago #0085",
+    "prioridad": 5,
+    "estado": "abierta",
+    "tecnico": "Sergio",
+    "tags": [
+      "auth",
+      "gateway",
+      "security"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-14T18:16:00Z"
+    }
+  },
+  {
+    "titulo": "Caída de servicio en ingesta ETL #0086",
+    "prioridad": 3,
+    "estado": "en_progreso",
+    "tecnico": "Marta",
+    "tags": [
+      "etl",
+      "kafka"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-23T10:23:00Z"
+    }
+  },
+  {
+    "titulo": "No se cargan datos en portal #0087",
+    "prioridad": 2,
+    "estado": "en_progreso",
+    "tecnico": "Lucia",
+    "tags": [
+      "data-quality",
+      "payments"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-20T00:56:00Z"
+    }
+  },
+  {
+    "titulo": "Fallo intermitente en ingesta ETL #0088",
+    "prioridad": 5,
+    "estado": "abierta",
+    "tecnico": "SinAsignar",
+    "tags": [
+      "api"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-24T21:26:00Z"
+    }
+  },
+  {
+    "titulo": "Fallo intermitente en pasarela de pago #0089",
+    "prioridad": 5,
+    "estado": "abierta",
+    "tecnico": "Lucia",
+    "tags": [
+      "gateway"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-23T01:45:00Z"
+    }
+  },
+  {
+    "titulo": "Duplicados detectados en ingesta ETL #0090",
+    "prioridad": 5,
+    "estado": "en_progreso",
+    "tecnico": "Alex",
+    "tags": [
+      "performance"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-09T15:38:00Z"
+    }
+  },
+  {
+    "titulo": "Duplicados detectados en módulo de facturas #0091",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Lucia",
+    "tags": [
+      "security",
+      "gateway",
+      "search"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-05T08:00:00Z"
+    }
+  },
+  {
+    "titulo": "Timeout al acceder a portal #0092",
+    "prioridad": 5,
+    "estado": "abierta",
+    "tecnico": "Irene",
+    "tags": [
+      "data-quality",
+      "ux",
+      "db"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-02T21:34:00Z"
+    }
+  },
+  {
+    "titulo": "Desbordamiento de logs en dashboard #0093",
+    "prioridad": 5,
+    "estado": "en_progreso",
+    "tecnico": "Marta",
+    "tags": [
+      "billing"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-14T21:47:00Z"
+    }
+  },
+  {
+    "titulo": "Error 403 en Nginx #0094",
+    "prioridad": 2,
+    "estado": "abierta",
+    "tecnico": "Lucia",
+    "tags": [
+      "security"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-22T18:37:00Z"
+    }
+  },
+  {
+    "titulo": "Lentitud en módulo de facturas #0095",
+    "prioridad": 1,
+    "estado": "cerrada",
+    "tecnico": "Nora",
+    "tags": [
+      "db"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-07T11:41:00Z"
+    },
+    "minutosResolucion": 64,
+    "cerradaEn": {
+      "$date": "2025-11-07T12:45:00Z"
+    }
+  },
+  {
+    "titulo": "No se cargan datos en API de pedidos #0096",
+    "prioridad": 5,
+    "estado": "en_progreso",
+    "tecnico": "Marta",
+    "tags": [
+      "frontend",
+      "backend",
+      "data-quality"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-17T13:20:00Z"
+    }
+  },
+  {
+    "titulo": "Error 400 en cola Kafka #0097",
+    "prioridad": 4,
+    "estado": "cerrada",
+    "tecnico": "Alex",
+    "tags": [
+      "streaming"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-19T20:06:00Z"
+    },
+    "minutosResolucion": 100,
+    "cerradaEn": {
+      "$date": "2025-10-19T21:46:00Z"
+    }
+  },
+  {
+    "titulo": "Incidencia de compatibilidad en almacenamiento #0098",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Alex",
+    "tags": [
+      "backend"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-17T07:27:00Z"
+    }
+  },
+  {
+    "titulo": "Desbordamiento de logs en portal #0099",
+    "prioridad": 4,
+    "estado": "en_progreso",
+    "tecnico": "Irene",
+    "tags": [
+      "kafka"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-30T11:15:00Z"
+    }
+  },
+  {
+    "titulo": "Duplicados detectados en ingesta ETL #0100",
+    "prioridad": 3,
+    "estado": "en_progreso",
+    "tecnico": "Sergio",
+    "tags": [
+      "security"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-08T16:51:00Z"
+    }
+  },
+  {
+    "titulo": "Desbordamiento de logs en pasarela de pago #0101",
+    "prioridad": 3,
+    "estado": "en_progreso",
+    "tecnico": "Nora",
+    "tags": [
+      "db"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-28T14:27:00Z"
+    }
+  },
+  {
+    "titulo": "No se cargan datos en almacenamiento #0102",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Nora",
+    "tags": [
+      "db"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-17T14:36:00Z"
+    }
+  },
+  {
+    "titulo": "Incidencia de compatibilidad en pasarela de pago #0103",
+    "prioridad": 5,
+    "estado": "cerrada",
+    "tecnico": "Sergio",
+    "tags": [
+      "streaming",
+      "data-quality"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-07T05:43:00Z"
+    },
+    "minutosResolucion": 52,
+    "cerradaEn": {
+      "$date": "2025-11-07T06:35:00Z"
+    }
+  },
+  {
+    "titulo": "Error 409 en buscador #0104",
+    "prioridad": 4,
+    "estado": "en_progreso",
+    "tecnico": "Lucia",
+    "tags": [
+      "billing",
+      "api"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-28T11:12:00Z"
+    }
+  },
+  {
+    "titulo": "Fallo intermitente en dashboard #0105",
+    "prioridad": 2,
+    "estado": "abierta",
+    "tecnico": "Nora",
+    "tags": [
+      "performance"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-02T18:37:00Z"
+    }
+  },
+  {
+    "titulo": "No se cargan datos en API de pedidos #0106",
+    "prioridad": 3,
+    "estado": "cerrada",
+    "tecnico": "Sergio",
+    "tags": [
+      "payments",
+      "kafka",
+      "search"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-03T21:34:00Z"
+    },
+    "minutosResolucion": 90,
+    "cerradaEn": {
+      "$date": "2025-11-03T23:04:00Z"
+    }
+  },
+  {
+    "titulo": "Desalineación de permisos en ingesta ETL #0107",
+    "prioridad": 4,
+    "estado": "cerrada",
+    "tecnico": "Marta",
+    "tags": [
+      "gateway",
+      "monitoring",
+      "backend"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-02T12:14:00Z"
+    },
+    "minutosResolucion": 94,
+    "cerradaEn": {
+      "$date": "2025-11-02T13:48:00Z"
+    }
+  },
+  {
+    "titulo": "Duplicados detectados en pasarela de pago #0108",
+    "prioridad": 4,
+    "estado": "en_progreso",
+    "tecnico": "Lucia",
+    "tags": [
+      "db"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-24T05:07:00Z"
+    }
+  },
+  {
+    "titulo": "No se cargan datos en API de pedidos #0109",
+    "prioridad": 5,
+    "estado": "en_progreso",
+    "tecnico": "Nora",
+    "tags": [
+      "data-quality",
+      "backend",
+      "security"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-21T10:01:00Z"
+    }
+  },
+  {
+    "titulo": "Caída de servicio en Nginx #0110",
+    "prioridad": 3,
+    "estado": "cerrada",
+    "tecnico": "Marta",
+    "tags": [
+      "data-quality"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-07T07:02:00Z"
+    },
+    "minutosResolucion": 54,
+    "cerradaEn": {
+      "$date": "2025-10-07T07:56:00Z"
+    }
+  },
+  {
+    "titulo": "Desbordamiento de logs en Nginx #0111",
+    "prioridad": 3,
+    "estado": "cerrada",
+    "tecnico": "Lucia",
+    "tags": [
+      "performance",
+      "api"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-02T00:44:00Z"
+    },
+    "minutosResolucion": 118,
+    "cerradaEn": {
+      "$date": "2025-11-02T02:42:00Z"
+    }
+  },
+  {
+    "titulo": "Caída de servicio en portal #0112",
+    "prioridad": 2,
+    "estado": "en_progreso",
+    "tecnico": "Marta",
+    "tags": [
+      "monitoring",
+      "api",
+      "mobile"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-13T06:02:00Z"
+    }
+  },
+  {
+    "titulo": "Incidencia de compatibilidad en portal #0113",
+    "prioridad": 2,
+    "estado": "abierta",
+    "tecnico": "Lucia",
+    "tags": [
+      "etl"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-18T07:17:00Z"
+    }
+  },
+  {
+    "titulo": "Timeout al acceder a pasarela de pago #0114",
+    "prioridad": 2,
+    "estado": "abierta",
+    "tecnico": "Irene",
+    "tags": [
+      "gateway"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-03T21:21:00Z"
+    }
+  },
+  {
+    "titulo": "Fallo intermitente en ingesta ETL #0115",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "SinAsignar",
+    "tags": [
+      "billing"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-05T00:55:00Z"
+    }
+  },
+  {
+    "titulo": "Incidencia de compatibilidad en portal #0116",
+    "prioridad": 5,
+    "estado": "abierta",
+    "tecnico": "Alex",
+    "tags": [
+      "data-quality"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-04T09:11:00Z"
+    }
+  },
+  {
+    "titulo": "Duplicados detectados en almacenamiento #0117",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "SinAsignar",
+    "tags": [
+      "search",
+      "security"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-08T18:16:00Z"
+    }
+  },
+  {
+    "titulo": "Desbordamiento de logs en portal #0118",
+    "prioridad": 5,
+    "estado": "en_progreso",
+    "tecnico": "Alex",
+    "tags": [
+      "storage",
+      "streaming"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-05T23:28:00Z"
+    }
+  },
+  {
+    "titulo": "Lentitud en almacenamiento #0119",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "Lucia",
+    "tags": [
+      "security",
+      "backend"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-21T18:54:00Z"
+    }
+  },
+  {
+    "titulo": "Caída de servicio en buscador #0120",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "Marta",
+    "tags": [
+      "mobile"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-07T15:04:00Z"
+    }
+  },
+  {
+    "titulo": "Desbordamiento de logs en Nginx #0121",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "SinAsignar",
+    "tags": [
+      "gateway",
+      "etl",
+      "performance"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-22T21:38:00Z"
+    }
+  },
+  {
+    "titulo": "No se cargan datos en dashboard #0122",
+    "prioridad": 3,
+    "estado": "en_progreso",
+    "tecnico": "Alex",
+    "tags": [
+      "ops"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-15T19:52:00Z"
+    }
+  },
+  {
+    "titulo": "Duplicados detectados en módulo de facturas #0123",
+    "prioridad": 1,
+    "estado": "en_progreso",
+    "tecnico": "Alex",
+    "tags": [
+      "api"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-30T15:59:00Z"
+    }
+  },
+  {
+    "titulo": "Desalineación de permisos en ingesta ETL #0124",
+    "prioridad": 4,
+    "estado": "cerrada",
+    "tecnico": "Lucia",
+    "tags": [
+      "monitoring"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-03T21:37:00Z"
+    },
+    "minutosResolucion": 65,
+    "cerradaEn": {
+      "$date": "2025-10-03T22:42:00Z"
+    }
+  },
+  {
+    "titulo": "Duplicados detectados en ingesta ETL #0125",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "Irene",
+    "tags": [
+      "monitoring",
+      "gateway"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-25T23:32:00Z"
+    }
+  },
+  {
+    "titulo": "Incidencia de compatibilidad en portal #0126",
+    "prioridad": 5,
+    "estado": "cerrada",
+    "tecnico": "Sergio",
+    "tags": [
+      "gateway",
+      "auth"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-25T19:14:00Z"
+    },
+    "minutosResolucion": 60,
+    "cerradaEn": {
+      "$date": "2025-10-25T20:14:00Z"
+    }
+  },
+  {
+    "titulo": "Fallo intermitente en Nginx #0127",
+    "prioridad": 3,
+    "estado": "en_progreso",
+    "tecnico": "Nora",
+    "tags": [
+      "payments"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-09T00:17:00Z"
+    }
+  },
+  {
+    "titulo": "Desalineación de permisos en cola Kafka #0128",
+    "prioridad": 5,
+    "estado": "en_progreso",
+    "tecnico": "Alex",
+    "tags": [
+      "etl",
+      "db"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-04T07:09:00Z"
+    }
+  },
+  {
+    "titulo": "Lentitud en buscador #0129",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "SinAsignar",
+    "tags": [
+      "billing",
+      "payments",
+      "frontend"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-08T01:23:00Z"
+    }
+  },
+  {
+    "titulo": "Lentitud en Nginx #0130",
+    "prioridad": 3,
+    "estado": "en_progreso",
+    "tecnico": "Nora",
+    "tags": [
+      "storage"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-29T13:27:00Z"
+    }
+  },
+  {
+    "titulo": "Desalineación de permisos en portal #0131",
+    "prioridad": 4,
+    "estado": "en_progreso",
+    "tecnico": "Sergio",
+    "tags": [
+      "frontend",
+      "data-quality"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-06T01:18:00Z"
+    }
+  },
+  {
+    "titulo": "Lentitud en buscador #0132",
+    "prioridad": 2,
+    "estado": "abierta",
+    "tecnico": "Alex",
+    "tags": [
+      "streaming",
+      "ops"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-01T15:13:00Z"
+    }
+  },
+  {
+    "titulo": "Lentitud en portal #0133",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Irene",
+    "tags": [
+      "monitoring"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-02T04:27:00Z"
+    }
+  },
+  {
+    "titulo": "Desalineación de permisos en API de pedidos #0134",
+    "prioridad": 1,
+    "estado": "en_progreso",
+    "tecnico": "Nora",
+    "tags": [
+      "ux",
+      "db"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-19T22:01:00Z"
+    }
+  },
+  {
+    "titulo": "Lentitud en API de pedidos #0135",
+    "prioridad": 2,
+    "estado": "cerrada",
+    "tecnico": "Sergio",
+    "tags": [
+      "monitoring"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-18T14:01:00Z"
+    },
+    "minutosResolucion": 117,
+    "cerradaEn": {
+      "$date": "2025-10-18T15:58:00Z"
+    }
+  },
+  {
+    "titulo": "Lentitud en API de pedidos #0136",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Marta",
+    "tags": [
+      "payments"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-23T16:05:00Z"
+    }
+  },
+  {
+    "titulo": "Lentitud en ingesta ETL #0137",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "Marta",
+    "tags": [
+      "billing",
+      "data-quality"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-23T23:32:00Z"
+    }
+  },
+  {
+    "titulo": "Desbordamiento de logs en almacenamiento #0138",
+    "prioridad": 4,
+    "estado": "en_progreso",
+    "tecnico": "Lucia",
+    "tags": [
+      "search"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-09T18:11:00Z"
+    }
+  },
+  {
+    "titulo": "Desbordamiento de logs en buscador #0139",
+    "prioridad": 4,
+    "estado": "cerrada",
+    "tecnico": "Lucia",
+    "tags": [
+      "ops",
+      "mobile",
+      "billing"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-20T11:43:00Z"
+    },
+    "minutosResolucion": 138,
+    "cerradaEn": {
+      "$date": "2025-10-20T14:01:00Z"
+    }
+  },
+  {
+    "titulo": "No se cargan datos en buscador #0140",
+    "prioridad": 2,
+    "estado": "abierta",
+    "tecnico": "SinAsignar",
+    "tags": [
+      "backend"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-20T04:40:00Z"
+    }
+  },
+  {
+    "titulo": "Desbordamiento de logs en módulo de facturas #0141",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "SinAsignar",
+    "tags": [
+      "storage",
+      "db"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-02T22:03:00Z"
+    }
+  },
+  {
+    "titulo": "Caída de servicio en portal #0142",
+    "prioridad": 3,
+    "estado": "cerrada",
+    "tecnico": "Sergio",
+    "tags": [
+      "ops",
+      "search"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-04T02:47:00Z"
+    },
+    "minutosResolucion": 43,
+    "cerradaEn": {
+      "$date": "2025-11-04T03:30:00Z"
+    }
+  },
+  {
+    "titulo": "Desbordamiento de logs en módulo de facturas #0143",
+    "prioridad": 1,
+    "estado": "cerrada",
+    "tecnico": "Lucia",
+    "tags": [
+      "data-quality"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-06T01:21:00Z"
+    },
+    "minutosResolucion": 147,
+    "cerradaEn": {
+      "$date": "2025-11-06T03:48:00Z"
+    }
+  },
+  {
+    "titulo": "Incidencia de compatibilidad en cola Kafka #0144",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Nora",
+    "tags": [
+      "ops"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-23T15:39:00Z"
+    }
+  },
+  {
+    "titulo": "Fallo intermitente en API de pedidos #0145",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "Nora",
+    "tags": [
+      "mobile"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-04T03:21:00Z"
+    }
+  },
+  {
+    "titulo": "No se cargan datos en Nginx #0146",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Sergio",
+    "tags": [
+      "backend"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-26T04:42:00Z"
+    }
+  },
+  {
+    "titulo": "Duplicados detectados en cola Kafka #0147",
+    "prioridad": 2,
+    "estado": "abierta",
+    "tecnico": "SinAsignar",
+    "tags": [
+      "performance",
+      "storage"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-28T18:50:00Z"
+    }
+  },
+  {
+    "titulo": "Fallo intermitente en ingesta ETL #0148",
+    "prioridad": 3,
+    "estado": "cerrada",
+    "tecnico": "Marta",
+    "tags": [
+      "billing"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-14T12:11:00Z"
+    },
+    "minutosResolucion": 113,
+    "cerradaEn": {
+      "$date": "2025-10-14T14:04:00Z"
+    }
+  },
+  {
+    "titulo": "Incidencia de compatibilidad en dashboard #0149",
+    "prioridad": 5,
+    "estado": "cerrada",
+    "tecnico": "Alex",
+    "tags": [
+      "mobile",
+      "billing"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-03T05:34:00Z"
+    },
+    "minutosResolucion": 66,
+    "cerradaEn": {
+      "$date": "2025-11-03T06:40:00Z"
+    }
+  },
+  {
+    "titulo": "Duplicados detectados en buscador #0150",
+    "prioridad": 4,
+    "estado": "cerrada",
+    "tecnico": "Irene",
+    "tags": [
+      "frontend",
+      "performance"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-08T06:11:00Z"
+    },
+    "minutosResolucion": 47,
+    "cerradaEn": {
+      "$date": "2025-10-08T06:58:00Z"
+    }
+  },
+  {
+    "titulo": "Desbordamiento de logs en Nginx #0151",
+    "prioridad": 2,
+    "estado": "abierta",
+    "tecnico": "Lucia",
+    "tags": [
+      "etl",
+      "monitoring",
+      "security"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-03T18:28:00Z"
+    }
+  },
+  {
+    "titulo": "Error 502 en cola Kafka #0152",
+    "prioridad": 2,
+    "estado": "abierta",
+    "tecnico": "Irene",
+    "tags": [
+      "billing",
+      "kafka"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-22T18:33:00Z"
+    }
+  },
+  {
+    "titulo": "No se cargan datos en módulo de facturas #0153",
+    "prioridad": 5,
+    "estado": "abierta",
+    "tecnico": "SinAsignar",
+    "tags": [
+      "payments"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-24T23:59:00Z"
+    }
+  },
+  {
+    "titulo": "Desalineación de permisos en Nginx #0154",
+    "prioridad": 5,
+    "estado": "abierta",
+    "tecnico": "Irene",
+    "tags": [
+      "monitoring",
+      "auth"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-07T14:53:00Z"
+    }
+  },
+  {
+    "titulo": "Lentitud en dashboard #0155",
+    "prioridad": 5,
+    "estado": "abierta",
+    "tecnico": "Marta",
+    "tags": [
+      "ops"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-22T18:23:00Z"
+    }
+  },
+  {
+    "titulo": "Incidencia de compatibilidad en API de pedidos #0156",
+    "prioridad": 5,
+    "estado": "abierta",
+    "tecnico": "Alex",
+    "tags": [
+      "search",
+      "security"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-07T04:02:00Z"
+    }
+  },
+  {
+    "titulo": "Timeout al acceder a API de pedidos #0157",
+    "prioridad": 2,
+    "estado": "abierta",
+    "tecnico": "Sergio",
+    "tags": [
+      "streaming"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-02T03:16:00Z"
+    }
+  },
+  {
+    "titulo": "Incidencia de compatibilidad en portal #0158",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "Lucia",
+    "tags": [
+      "search"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-03T08:15:00Z"
+    }
+  },
+  {
+    "titulo": "Duplicados detectados en almacenamiento #0159",
+    "prioridad": 4,
+    "estado": "en_progreso",
+    "tecnico": "Nora",
+    "tags": [
+      "mobile"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-28T07:32:00Z"
+    }
+  },
+  {
+    "titulo": "Caída de servicio en módulo de facturas #0160",
+    "prioridad": 1,
+    "estado": "en_progreso",
+    "tecnico": "Nora",
+    "tags": [
+      "storage"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-19T02:11:00Z"
+    }
+  },
+  {
+    "titulo": "Lentitud en pasarela de pago #0161",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Sergio",
+    "tags": [
+      "kafka",
+      "auth",
+      "monitoring"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-24T23:01:00Z"
+    }
+  },
+  {
+    "titulo": "Duplicados detectados en cola Kafka #0162",
+    "prioridad": 4,
+    "estado": "en_progreso",
+    "tecnico": "Lucia",
+    "tags": [
+      "billing",
+      "frontend"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-01T14:42:00Z"
+    }
+  },
+  {
+    "titulo": "Lentitud en portal #0163",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "Lucia",
+    "tags": [
+      "search",
+      "payments",
+      "billing"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-05T01:41:00Z"
+    }
+  },
+  {
+    "titulo": "Caída de servicio en módulo de facturas #0164",
+    "prioridad": 2,
+    "estado": "abierta",
+    "tecnico": "SinAsignar",
+    "tags": [
+      "streaming"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-13T20:12:00Z"
+    }
+  },
+  {
+    "titulo": "Duplicados detectados en API de pedidos #0165",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "Nora",
+    "tags": [
+      "frontend"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-21T12:16:00Z"
+    }
+  },
+  {
+    "titulo": "Desbordamiento de logs en cola Kafka #0166",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Lucia",
+    "tags": [
+      "db",
+      "ops",
+      "payments"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-04T10:23:00Z"
+    }
+  },
+  {
+    "titulo": "Incidencia de compatibilidad en módulo de facturas #0167",
+    "prioridad": 5,
+    "estado": "en_progreso",
+    "tecnico": "Lucia",
+    "tags": [
+      "performance"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-09T18:51:00Z"
+    }
+  },
+  {
+    "titulo": "Desalineación de permisos en buscador #0168",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Nora",
+    "tags": [
+      "mobile"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-13T20:20:00Z"
+    }
+  },
+  {
+    "titulo": "Error 401 en Nginx #0169",
+    "prioridad": 5,
+    "estado": "abierta",
+    "tecnico": "Marta",
+    "tags": [
+      "performance",
+      "kafka"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-16T07:28:00Z"
+    }
+  },
+  {
+    "titulo": "Desbordamiento de logs en dashboard #0170",
+    "prioridad": 4,
+    "estado": "cerrada",
+    "tecnico": "Alex",
+    "tags": [
+      "mobile"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-16T20:32:00Z"
+    },
+    "minutosResolucion": 54,
+    "cerradaEn": {
+      "$date": "2025-10-16T21:26:00Z"
+    }
+  },
+  {
+    "titulo": "Duplicados detectados en buscador #0171",
+    "prioridad": 3,
+    "estado": "cerrada",
+    "tecnico": "Marta",
+    "tags": [
+      "frontend",
+      "billing",
+      "security"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-04T04:15:00Z"
+    },
+    "minutosResolucion": 107,
+    "cerradaEn": {
+      "$date": "2025-10-04T06:02:00Z"
+    }
+  },
+  {
+    "titulo": "Caída de servicio en módulo de facturas #0172",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "Irene",
+    "tags": [
+      "auth",
+      "payments",
+      "search"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-23T22:23:00Z"
+    }
+  },
+  {
+    "titulo": "Lentitud en API de pedidos #0173",
+    "prioridad": 4,
+    "estado": "cerrada",
+    "tecnico": "Irene",
+    "tags": [
+      "streaming",
+      "search",
+      "etl"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-06T08:16:00Z"
+    },
+    "minutosResolucion": 46,
+    "cerradaEn": {
+      "$date": "2025-10-06T09:02:00Z"
+    }
+  },
+  {
+    "titulo": "Lentitud en módulo de facturas #0174",
+    "prioridad": 3,
+    "estado": "cerrada",
+    "tecnico": "Alex",
+    "tags": [
+      "ops",
+      "monitoring"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-20T14:11:00Z"
+    },
+    "minutosResolucion": 96,
+    "cerradaEn": {
+      "$date": "2025-10-20T15:47:00Z"
+    }
+  },
+  {
+    "titulo": "Lentitud en dashboard #0175",
+    "prioridad": 4,
+    "estado": "en_progreso",
+    "tecnico": "Irene",
+    "tags": [
+      "storage",
+      "data-quality"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-08T01:45:00Z"
+    }
+  },
+  {
+    "titulo": "Fallo intermitente en API de pedidos #0176",
+    "prioridad": 3,
+    "estado": "en_progreso",
+    "tecnico": "Sergio",
+    "tags": [
+      "gateway"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-11T10:50:00Z"
+    }
+  },
+  {
+    "titulo": "Incidencia de compatibilidad en dashboard #0177",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "Lucia",
+    "tags": [
+      "performance"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-04T03:19:00Z"
+    }
+  },
+  {
+    "titulo": "Incidencia de compatibilidad en dashboard #0178",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Marta",
+    "tags": [
+      "gateway"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-14T20:41:00Z"
+    }
+  },
+  {
+    "titulo": "Fallo intermitente en cola Kafka #0179",
+    "prioridad": 1,
+    "estado": "cerrada",
+    "tecnico": "Alex",
+    "tags": [
+      "streaming"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-19T19:32:00Z"
+    },
+    "minutosResolucion": 156,
+    "cerradaEn": {
+      "$date": "2025-10-19T22:08:00Z"
+    }
+  },
+  {
+    "titulo": "Caída de servicio en dashboard #0180",
+    "prioridad": 5,
+    "estado": "abierta",
+    "tecnico": "Nora",
+    "tags": [
+      "kafka",
+      "etl"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-10T05:45:00Z"
+    }
+  },
+  {
+    "titulo": "Fallo intermitente en almacenamiento #0181",
+    "prioridad": 1,
+    "estado": "en_progreso",
+    "tecnico": "Lucia",
+    "tags": [
+      "ux"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-28T00:19:00Z"
+    }
+  },
+  {
+    "titulo": "Lentitud en almacenamiento #0182",
+    "prioridad": 5,
+    "estado": "en_progreso",
+    "tecnico": "Sergio",
+    "tags": [
+      "auth"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-01T01:57:00Z"
+    }
+  },
+  {
+    "titulo": "No se cargan datos en buscador #0183",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "SinAsignar",
+    "tags": [
+      "gateway"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-12T15:41:00Z"
+    }
+  },
+  {
+    "titulo": "Fallo intermitente en Nginx #0184",
+    "prioridad": 3,
+    "estado": "cerrada",
+    "tecnico": "Marta",
+    "tags": [
+      "frontend"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-11T18:51:00Z"
+    },
+    "minutosResolucion": 80,
+    "cerradaEn": {
+      "$date": "2025-10-11T20:11:00Z"
+    }
+  },
+  {
+    "titulo": "Caída de servicio en cola Kafka #0185",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "Marta",
+    "tags": [
+      "billing",
+      "monitoring",
+      "storage"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-27T05:09:00Z"
+    }
+  },
+  {
+    "titulo": "Desalineación de permisos en Nginx #0186",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Alex",
+    "tags": [
+      "streaming"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-11T15:29:00Z"
+    }
+  },
+  {
+    "titulo": "Desbordamiento de logs en buscador #0187",
+    "prioridad": 5,
+    "estado": "cerrada",
+    "tecnico": "Sergio",
+    "tags": [
+      "etl",
+      "payments"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-11T22:55:00Z"
+    },
+    "minutosResolucion": 82,
+    "cerradaEn": {
+      "$date": "2025-10-12T00:17:00Z"
+    }
+  },
+  {
+    "titulo": "Timeout al acceder a cola Kafka #0188",
+    "prioridad": 1,
+    "estado": "abierta",
+    "tecnico": "Sergio",
+    "tags": [
+      "data-quality"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-22T14:56:00Z"
+    }
+  },
+  {
+    "titulo": "Lentitud en dashboard #0189",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "Lucia",
+    "tags": [
+      "auth"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-03T09:03:00Z"
+    }
+  },
+  {
+    "titulo": "Incidencia de compatibilidad en pasarela de pago #0190",
+    "prioridad": 4,
+    "estado": "en_progreso",
+    "tecnico": "Nora",
+    "tags": [
+      "frontend"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-07T23:16:00Z"
+    }
+  },
+  {
+    "titulo": "Fallo intermitente en Nginx #0191",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Lucia",
+    "tags": [
+      "kafka",
+      "api"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-16T19:35:00Z"
+    }
+  },
+  {
+    "titulo": "Desalineación de permisos en portal #0192",
+    "prioridad": 4,
+    "estado": "cerrada",
+    "tecnico": "Nora",
+    "tags": [
+      "etl",
+      "storage"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-17T06:50:00Z"
+    },
+    "minutosResolucion": 110,
+    "cerradaEn": {
+      "$date": "2025-10-17T08:40:00Z"
+    }
+  },
+  {
+    "titulo": "Fallo intermitente en almacenamiento #0193",
+    "prioridad": 3,
+    "estado": "en_progreso",
+    "tecnico": "Sergio",
+    "tags": [
+      "billing",
+      "ops",
+      "ux"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-15T13:51:00Z"
+    }
+  },
+  {
+    "titulo": "Error 429 en cola Kafka #0194",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Lucia",
+    "tags": [
+      "streaming",
+      "search"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-01T21:53:00Z"
+    }
+  },
+  {
+    "titulo": "Incidencia de compatibilidad en pasarela de pago #0195",
+    "prioridad": 4,
+    "estado": "cerrada",
+    "tecnico": "Lucia",
+    "tags": [
+      "auth",
+      "search",
+      "kafka"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-30T01:07:00Z"
+    },
+    "minutosResolucion": 97,
+    "cerradaEn": {
+      "$date": "2025-10-30T02:44:00Z"
+    }
+  },
+  {
+    "titulo": "Timeout al acceder a almacenamiento #0196",
+    "prioridad": 2,
+    "estado": "en_progreso",
+    "tecnico": "Lucia",
+    "tags": [
+      "db",
+      "billing"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-01T02:03:00Z"
+    }
+  },
+  {
+    "titulo": "Desalineación de permisos en almacenamiento #0197",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Sergio",
+    "tags": [
+      "etl"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-31T05:07:00Z"
+    }
+  },
+  {
+    "titulo": "Caída de servicio en buscador #0198",
+    "prioridad": 4,
+    "estado": "cerrada",
+    "tecnico": "Alex",
+    "tags": [
+      "storage",
+      "etl"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-09T14:30:00Z"
+    },
+    "minutosResolucion": 62,
+    "cerradaEn": {
+      "$date": "2025-11-09T15:32:00Z"
+    }
+  },
+  {
+    "titulo": "Timeout al acceder a ingesta ETL #0199",
+    "prioridad": 3,
+    "estado": "cerrada",
+    "tecnico": "Nora",
+    "tags": [
+      "kafka",
+      "search"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-08T17:29:00Z"
+    },
+    "minutosResolucion": 99,
+    "cerradaEn": {
+      "$date": "2025-10-08T19:08:00Z"
+    }
+  },
+  {
+    "titulo": "Duplicados detectados en cola Kafka #0200",
+    "prioridad": 5,
+    "estado": "abierta",
+    "tecnico": "Nora",
+    "tags": [
+      "etl",
+      "search"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-25T03:19:00Z"
+    }
+  },
+  {
+    "titulo": "Desalineación de permisos en cola Kafka #0201",
+    "prioridad": 4,
+    "estado": "cerrada",
+    "tecnico": "Nora",
+    "tags": [
+      "gateway"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-25T05:59:00Z"
+    },
+    "minutosResolucion": 152,
+    "cerradaEn": {
+      "$date": "2025-10-25T08:31:00Z"
+    }
+  },
+  {
+    "titulo": "Timeout al acceder a ingesta ETL #0202",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "Marta",
+    "tags": [
+      "kafka",
+      "search",
+      "etl"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-13T17:02:00Z"
+    }
+  },
+  {
+    "titulo": "Error 503 en pasarela de pago #0203",
+    "prioridad": 2,
+    "estado": "en_progreso",
+    "tecnico": "Sergio",
+    "tags": [
+      "data-quality",
+      "mobile"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-10T03:35:00Z"
+    }
+  },
+  {
+    "titulo": "Error 503 en dashboard #0204",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Lucia",
+    "tags": [
+      "billing"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-28T13:14:00Z"
+    }
+  },
+  {
+    "titulo": "No se cargan datos en API de pedidos #0205",
+    "prioridad": 5,
+    "estado": "cerrada",
+    "tecnico": "Marta",
+    "tags": [
+      "streaming",
+      "ops"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-18T16:41:00Z"
+    },
+    "minutosResolucion": 62,
+    "cerradaEn": {
+      "$date": "2025-10-18T17:43:00Z"
+    }
+  },
+  {
+    "titulo": "Error 500 en buscador #0206",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "SinAsignar",
+    "tags": [
+      "payments",
+      "performance",
+      "mobile"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-29T03:36:00Z"
+    }
+  },
+  {
+    "titulo": "Duplicados detectados en buscador #0207",
+    "prioridad": 5,
+    "estado": "en_progreso",
+    "tecnico": "Nora",
+    "tags": [
+      "auth",
+      "streaming",
+      "api"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-09T06:59:00Z"
+    }
+  },
+  {
+    "titulo": "Lentitud en dashboard #0208",
+    "prioridad": 5,
+    "estado": "en_progreso",
+    "tecnico": "Irene",
+    "tags": [
+      "security",
+      "kafka",
+      "etl"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-28T16:34:00Z"
+    }
+  },
+  {
+    "titulo": "Timeout al acceder a almacenamiento #0209",
+    "prioridad": 4,
+    "estado": "en_progreso",
+    "tecnico": "Alex",
+    "tags": [
+      "streaming",
+      "ux"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-01T12:29:00Z"
+    }
+  },
+  {
+    "titulo": "Lentitud en dashboard #0210",
+    "prioridad": 5,
+    "estado": "cerrada",
+    "tecnico": "Sergio",
+    "tags": [
+      "db"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-06T20:40:00Z"
+    },
+    "minutosResolucion": 15,
+    "cerradaEn": {
+      "$date": "2025-11-06T20:55:00Z"
+    }
+  },
+  {
+    "titulo": "No se cargan datos en pasarela de pago #0211",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Nora",
+    "tags": [
+      "streaming",
+      "ux",
+      "auth"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-01T14:16:00Z"
+    }
+  },
+  {
+    "titulo": "No se cargan datos en almacenamiento #0212",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Sergio",
+    "tags": [
+      "streaming",
+      "api"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-03T23:42:00Z"
+    }
+  },
+  {
+    "titulo": "Desalineación de permisos en buscador #0213",
+    "prioridad": 3,
+    "estado": "cerrada",
+    "tecnico": "Marta",
+    "tags": [
+      "mobile",
+      "monitoring"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-10T18:14:00Z"
+    },
+    "minutosResolucion": 115,
+    "cerradaEn": {
+      "$date": "2025-10-10T20:09:00Z"
+    }
+  },
+  {
+    "titulo": "Caída de servicio en módulo de facturas #0214",
+    "prioridad": 5,
+    "estado": "cerrada",
+    "tecnico": "Irene",
+    "tags": [
+      "mobile",
+      "backend"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-02T15:34:00Z"
+    },
+    "minutosResolucion": 75,
+    "cerradaEn": {
+      "$date": "2025-11-02T16:49:00Z"
+    }
+  },
+  {
+    "titulo": "Duplicados detectados en buscador #0215",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Irene",
+    "tags": [
+      "billing",
+      "payments"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-25T09:07:00Z"
+    }
+  },
+  {
+    "titulo": "Fallo intermitente en Nginx #0216",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "SinAsignar",
+    "tags": [
+      "security",
+      "frontend",
+      "mobile"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-06T07:43:00Z"
+    }
+  },
+  {
+    "titulo": "Error 404 en almacenamiento #0217",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Nora",
+    "tags": [
+      "db",
+      "kafka"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-20T19:36:00Z"
+    }
+  },
+  {
+    "titulo": "No se cargan datos en dashboard #0218",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "SinAsignar",
+    "tags": [
+      "backend",
+      "search",
+      "frontend"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-04T10:02:00Z"
+    }
+  },
+  {
+    "titulo": "Desalineación de permisos en API de pedidos #0219",
+    "prioridad": 5,
+    "estado": "cerrada",
+    "tecnico": "Lucia",
+    "tags": [
+      "monitoring",
+      "db",
+      "security"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-03T03:08:00Z"
+    },
+    "minutosResolucion": 66,
+    "cerradaEn": {
+      "$date": "2025-11-03T04:14:00Z"
+    }
+  },
+  {
+    "titulo": "Desalineación de permisos en dashboard #0220",
+    "prioridad": 2,
+    "estado": "cerrada",
+    "tecnico": "Nora",
+    "tags": [
+      "gateway"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-30T11:42:00Z"
+    },
+    "minutosResolucion": 112,
+    "cerradaEn": {
+      "$date": "2025-10-30T13:34:00Z"
+    }
+  },
+  {
+    "titulo": "Timeout al acceder a cola Kafka #0221",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Sergio",
+    "tags": [
+      "data-quality"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-01T11:48:00Z"
+    }
+  },
+  {
+    "titulo": "Incidencia de compatibilidad en pasarela de pago #0222",
+    "prioridad": 5,
+    "estado": "abierta",
+    "tecnico": "SinAsignar",
+    "tags": [
+      "performance"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-07T22:17:00Z"
+    }
+  },
+  {
+    "titulo": "Desalineación de permisos en pasarela de pago #0223",
+    "prioridad": 1,
+    "estado": "abierta",
+    "tecnico": "SinAsignar",
+    "tags": [
+      "frontend"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-10T03:04:00Z"
+    }
+  },
+  {
+    "titulo": "Timeout al acceder a cola Kafka #0224",
+    "prioridad": 4,
+    "estado": "cerrada",
+    "tecnico": "Irene",
+    "tags": [
+      "streaming"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-24T08:13:00Z"
+    },
+    "minutosResolucion": 67,
+    "cerradaEn": {
+      "$date": "2025-10-24T09:20:00Z"
+    }
+  },
+  {
+    "titulo": "Caída de servicio en Nginx #0225",
+    "prioridad": 5,
+    "estado": "cerrada",
+    "tecnico": "Irene",
+    "tags": [
+      "billing"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-25T23:38:00Z"
+    },
+    "minutosResolucion": 76,
+    "cerradaEn": {
+      "$date": "2025-10-26T00:54:00Z"
+    }
+  },
+  {
+    "titulo": "Error 429 en Nginx #0226",
+    "prioridad": 2,
+    "estado": "en_progreso",
+    "tecnico": "Lucia",
+    "tags": [
+      "search"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-26T13:56:00Z"
+    }
+  },
+  {
+    "titulo": "Caída de servicio en pasarela de pago #0227",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Alex",
+    "tags": [
+      "payments"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-03T20:33:00Z"
+    }
+  },
+  {
+    "titulo": "Caída de servicio en dashboard #0228",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "Lucia",
+    "tags": [
+      "gateway",
+      "performance",
+      "ux"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-06T13:14:00Z"
+    }
+  },
+  {
+    "titulo": "Timeout al acceder a ingesta ETL #0229",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "SinAsignar",
+    "tags": [
+      "monitoring",
+      "backend",
+      "gateway"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-17T21:15:00Z"
+    }
+  },
+  {
+    "titulo": "Caída de servicio en buscador #0230",
+    "prioridad": 1,
+    "estado": "en_progreso",
+    "tecnico": "Alex",
+    "tags": [
+      "ux"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-17T10:43:00Z"
+    }
+  },
+  {
+    "titulo": "Lentitud en pasarela de pago #0231",
+    "prioridad": 3,
+    "estado": "cerrada",
+    "tecnico": "Alex",
+    "tags": [
+      "etl"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-10T05:55:00Z"
+    },
+    "minutosResolucion": 115,
+    "cerradaEn": {
+      "$date": "2025-10-10T07:50:00Z"
+    }
+  },
+  {
+    "titulo": "Desbordamiento de logs en cola Kafka #0232",
+    "prioridad": 3,
+    "estado": "en_progreso",
+    "tecnico": "Irene",
+    "tags": [
+      "streaming",
+      "db"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-31T00:38:00Z"
+    }
+  },
+  {
+    "titulo": "Duplicados detectados en cola Kafka #0233",
+    "prioridad": 5,
+    "estado": "abierta",
+    "tecnico": "Lucia",
+    "tags": [
+      "search"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-14T11:16:00Z"
+    }
+  },
+  {
+    "titulo": "Incidencia de compatibilidad en Nginx #0234",
+    "prioridad": 5,
+    "estado": "abierta",
+    "tecnico": "Alex",
+    "tags": [
+      "gateway"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-14T16:26:00Z"
+    }
+  },
+  {
+    "titulo": "No se cargan datos en buscador #0235",
+    "prioridad": 2,
+    "estado": "abierta",
+    "tecnico": "Irene",
+    "tags": [
+      "ops"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-13T22:09:00Z"
+    }
+  },
+  {
+    "titulo": "Caída de servicio en módulo de facturas #0236",
+    "prioridad": 3,
+    "estado": "en_progreso",
+    "tecnico": "Irene",
+    "tags": [
+      "search",
+      "payments"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-20T23:10:00Z"
+    }
+  },
+  {
+    "titulo": "Desalineación de permisos en pasarela de pago #0237",
+    "prioridad": 5,
+    "estado": "cerrada",
+    "tecnico": "Lucia",
+    "tags": [
+      "auth"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-02T18:53:00Z"
+    },
+    "minutosResolucion": 98,
+    "cerradaEn": {
+      "$date": "2025-10-02T20:31:00Z"
+    }
+  },
+  {
+    "titulo": "Desbordamiento de logs en portal #0238",
+    "prioridad": 1,
+    "estado": "en_progreso",
+    "tecnico": "Lucia",
+    "tags": [
+      "mobile",
+      "search"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-10T15:32:00Z"
+    }
+  },
+  {
+    "titulo": "Error 503 en Nginx #0239",
+    "prioridad": 1,
+    "estado": "abierta",
+    "tecnico": "Nora",
+    "tags": [
+      "streaming"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-24T00:35:00Z"
+    }
+  },
+  {
+    "titulo": "Caída de servicio en cola Kafka #0240",
+    "prioridad": 5,
+    "estado": "abierta",
+    "tecnico": "Alex",
+    "tags": [
+      "mobile"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-04T17:58:00Z"
+    }
+  },
+  {
+    "titulo": "Timeout al acceder a API de pedidos #0241",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Sergio",
+    "tags": [
+      "data-quality"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-12T17:50:00Z"
+    }
+  },
+  {
+    "titulo": "Desbordamiento de logs en portal #0242",
+    "prioridad": 1,
+    "estado": "en_progreso",
+    "tecnico": "Marta",
+    "tags": [
+      "gateway"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-29T05:54:00Z"
+    }
+  },
+  {
+    "titulo": "Error 404 en pasarela de pago #0243",
+    "prioridad": 5,
+    "estado": "abierta",
+    "tecnico": "Marta",
+    "tags": [
+      "api",
+      "storage"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-31T07:10:00Z"
+    }
+  },
+  {
+    "titulo": "No se cargan datos en almacenamiento #0244",
+    "prioridad": 4,
+    "estado": "en_progreso",
+    "tecnico": "Nora",
+    "tags": [
+      "backend"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-08T18:55:00Z"
+    }
+  },
+  {
+    "titulo": "Lentitud en dashboard #0245",
+    "prioridad": 5,
+    "estado": "abierta",
+    "tecnico": "SinAsignar",
+    "tags": [
+      "ux",
+      "billing",
+      "db"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-29T09:02:00Z"
+    }
+  },
+  {
+    "titulo": "Lentitud en cola Kafka #0246",
+    "prioridad": 5,
+    "estado": "en_progreso",
+    "tecnico": "Lucia",
+    "tags": [
+      "ops",
+      "db",
+      "billing"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-25T09:15:00Z"
+    }
+  },
+  {
+    "titulo": "Duplicados detectados en ingesta ETL #0247",
+    "prioridad": 5,
+    "estado": "abierta",
+    "tecnico": "Marta",
+    "tags": [
+      "mobile",
+      "db"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-03T14:06:00Z"
+    }
+  },
+  {
+    "titulo": "Desalineación de permisos en almacenamiento #0248",
+    "prioridad": 3,
+    "estado": "en_progreso",
+    "tecnico": "Marta",
+    "tags": [
+      "ux"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-03T18:28:00Z"
+    }
+  },
+  {
+    "titulo": "Desalineación de permisos en cola Kafka #0249",
+    "prioridad": 1,
+    "estado": "abierta",
+    "tecnico": "Nora",
+    "tags": [
+      "billing"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-13T22:51:00Z"
+    }
+  },
+  {
+    "titulo": "Lentitud en Nginx #0250",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Marta",
+    "tags": [
+      "api",
+      "billing"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-05T21:05:00Z"
+    }
+  },
+  {
+    "titulo": "Lentitud en almacenamiento #0251",
+    "prioridad": 3,
+    "estado": "en_progreso",
+    "tecnico": "Alex",
+    "tags": [
+      "gateway"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-20T11:35:00Z"
+    }
+  },
+  {
+    "titulo": "Caída de servicio en almacenamiento #0252",
+    "prioridad": 1,
+    "estado": "cerrada",
+    "tecnico": "Marta",
+    "tags": [
+      "backend"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-03T19:20:00Z"
+    },
+    "minutosResolucion": 136,
+    "cerradaEn": {
+      "$date": "2025-11-03T21:36:00Z"
+    }
+  },
+  {
+    "titulo": "Fallo intermitente en dashboard #0253",
+    "prioridad": 2,
+    "estado": "en_progreso",
+    "tecnico": "Nora",
+    "tags": [
+      "search"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-23T13:10:00Z"
+    }
+  },
+  {
+    "titulo": "Desbordamiento de logs en almacenamiento #0254",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "SinAsignar",
+    "tags": [
+      "data-quality"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-19T21:17:00Z"
+    }
+  },
+  {
+    "titulo": "Desalineación de permisos en buscador #0255",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Sergio",
+    "tags": [
+      "mobile"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-09T16:29:00Z"
+    }
+  },
+  {
+    "titulo": "Incidencia de compatibilidad en buscador #0256",
+    "prioridad": 5,
+    "estado": "cerrada",
+    "tecnico": "Sergio",
+    "tags": [
+      "ops"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-15T14:27:00Z"
+    },
+    "minutosResolucion": 44,
+    "cerradaEn": {
+      "$date": "2025-10-15T15:11:00Z"
+    }
+  },
+  {
+    "titulo": "No se cargan datos en cola Kafka #0257",
+    "prioridad": 4,
+    "estado": "en_progreso",
+    "tecnico": "Sergio",
+    "tags": [
+      "ops",
+      "db"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-14T22:18:00Z"
+    }
+  },
+  {
+    "titulo": "Error 502 en pasarela de pago #0258",
+    "prioridad": 4,
+    "estado": "en_progreso",
+    "tecnico": "Sergio",
+    "tags": [
+      "gateway"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-06T04:59:00Z"
+    }
+  },
+  {
+    "titulo": "Timeout al acceder a dashboard #0259",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "Sergio",
+    "tags": [
+      "billing",
+      "streaming"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-20T00:51:00Z"
+    }
+  },
+  {
+    "titulo": "Caída de servicio en Nginx #0260",
+    "prioridad": 1,
+    "estado": "cerrada",
+    "tecnico": "Sergio",
+    "tags": [
+      "db"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-31T20:27:00Z"
+    },
+    "minutosResolucion": 211,
+    "cerradaEn": {
+      "$date": "2025-10-31T23:58:00Z"
+    }
+  },
+  {
+    "titulo": "Timeout al acceder a dashboard #0261",
+    "prioridad": 3,
+    "estado": "cerrada",
+    "tecnico": "Sergio",
+    "tags": [
+      "backend",
+      "api"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-24T12:02:00Z"
+    },
+    "minutosResolucion": 97,
+    "cerradaEn": {
+      "$date": "2025-10-24T13:39:00Z"
+    }
+  },
+  {
+    "titulo": "Lentitud en pasarela de pago #0262",
+    "prioridad": 5,
+    "estado": "en_progreso",
+    "tecnico": "Nora",
+    "tags": [
+      "performance",
+      "api",
+      "auth"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-28T20:43:00Z"
+    }
+  },
+  {
+    "titulo": "Desalineación de permisos en almacenamiento #0263",
+    "prioridad": 4,
+    "estado": "en_progreso",
+    "tecnico": "Sergio",
+    "tags": [
+      "monitoring"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-23T02:47:00Z"
+    }
+  },
+  {
+    "titulo": "Lentitud en dashboard #0264",
+    "prioridad": 5,
+    "estado": "abierta",
+    "tecnico": "Lucia",
+    "tags": [
+      "performance"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-30T19:32:00Z"
+    }
+  },
+  {
+    "titulo": "Desbordamiento de logs en cola Kafka #0265",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "Lucia",
+    "tags": [
+      "api"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-16T04:19:00Z"
+    }
+  },
+  {
+    "titulo": "Timeout al acceder a dashboard #0266",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "SinAsignar",
+    "tags": [
+      "api",
+      "payments"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-04T04:19:00Z"
+    }
+  },
+  {
+    "titulo": "Fallo intermitente en Nginx #0267",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Lucia",
+    "tags": [
+      "db"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-24T21:10:00Z"
+    }
+  },
+  {
+    "titulo": "Timeout al acceder a ingesta ETL #0268",
+    "prioridad": 5,
+    "estado": "en_progreso",
+    "tecnico": "Marta",
+    "tags": [
+      "db",
+      "auth"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-18T05:01:00Z"
+    }
+  },
+  {
+    "titulo": "Duplicados detectados en pasarela de pago #0269",
+    "prioridad": 1,
+    "estado": "cerrada",
+    "tecnico": "Alex",
+    "tags": [
+      "gateway",
+      "payments"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-02T10:45:00Z"
+    },
+    "minutosResolucion": 119,
+    "cerradaEn": {
+      "$date": "2025-11-02T12:44:00Z"
+    }
+  },
+  {
+    "titulo": "Incidencia de compatibilidad en cola Kafka #0270",
+    "prioridad": 5,
+    "estado": "abierta",
+    "tecnico": "Marta",
+    "tags": [
+      "mobile",
+      "db"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-20T20:07:00Z"
+    }
+  },
+  {
+    "titulo": "Lentitud en cola Kafka #0271",
+    "prioridad": 2,
+    "estado": "en_progreso",
+    "tecnico": "Lucia",
+    "tags": [
+      "streaming",
+      "ux"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-16T08:54:00Z"
+    }
+  },
+  {
+    "titulo": "Incidencia de compatibilidad en almacenamiento #0272",
+    "prioridad": 2,
+    "estado": "abierta",
+    "tecnico": "Alex",
+    "tags": [
+      "performance"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-06T08:15:00Z"
+    }
+  },
+  {
+    "titulo": "Fallo intermitente en cola Kafka #0273",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "Alex",
+    "tags": [
+      "search",
+      "streaming"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-17T16:27:00Z"
+    }
+  },
+  {
+    "titulo": "Desalineación de permisos en módulo de facturas #0274",
+    "prioridad": 5,
+    "estado": "en_progreso",
+    "tecnico": "Alex",
+    "tags": [
+      "etl"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-06T06:28:00Z"
+    }
+  },
+  {
+    "titulo": "Incidencia de compatibilidad en pasarela de pago #0275",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Lucia",
+    "tags": [
+      "backend"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-29T04:31:00Z"
+    }
+  },
+  {
+    "titulo": "Caída de servicio en API de pedidos #0276",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Alex",
+    "tags": [
+      "ux",
+      "search"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-13T19:02:00Z"
+    }
+  },
+  {
+    "titulo": "Desbordamiento de logs en pasarela de pago #0277",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Marta",
+    "tags": [
+      "frontend"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-25T18:07:00Z"
+    }
+  },
+  {
+    "titulo": "Desbordamiento de logs en cola Kafka #0278",
+    "prioridad": 4,
+    "estado": "en_progreso",
+    "tecnico": "Irene",
+    "tags": [
+      "frontend"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-19T11:06:00Z"
+    }
+  },
+  {
+    "titulo": "Incidencia de compatibilidad en almacenamiento #0279",
+    "prioridad": 5,
+    "estado": "abierta",
+    "tecnico": "SinAsignar",
+    "tags": [
+      "data-quality",
+      "etl"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-07T02:52:00Z"
+    }
+  },
+  {
+    "titulo": "Duplicados detectados en ingesta ETL #0280",
+    "prioridad": 2,
+    "estado": "abierta",
+    "tecnico": "Irene",
+    "tags": [
+      "frontend",
+      "ux"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-28T07:27:00Z"
+    }
+  },
+  {
+    "titulo": "Caída de servicio en dashboard #0281",
+    "prioridad": 5,
+    "estado": "abierta",
+    "tecnico": "Nora",
+    "tags": [
+      "kafka"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-26T19:34:00Z"
+    }
+  },
+  {
+    "titulo": "Fallo intermitente en pasarela de pago #0282",
+    "prioridad": 1,
+    "estado": "abierta",
+    "tecnico": "Nora",
+    "tags": [
+      "billing",
+      "mobile",
+      "data-quality"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-02T08:50:00Z"
+    }
+  },
+  {
+    "titulo": "Desbordamiento de logs en API de pedidos #0283",
+    "prioridad": 3,
+    "estado": "en_progreso",
+    "tecnico": "Sergio",
+    "tags": [
+      "performance",
+      "db"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-02T19:53:00Z"
+    }
+  },
+  {
+    "titulo": "Duplicados detectados en portal #0284",
+    "prioridad": 4,
+    "estado": "en_progreso",
+    "tecnico": "Nora",
+    "tags": [
+      "search"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-18T12:32:00Z"
+    }
+  },
+  {
+    "titulo": "Caída de servicio en pasarela de pago #0285",
+    "prioridad": 1,
+    "estado": "cerrada",
+    "tecnico": "Marta",
+    "tags": [
+      "monitoring",
+      "backend"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-07T09:49:00Z"
+    },
+    "minutosResolucion": 192,
+    "cerradaEn": {
+      "$date": "2025-11-07T13:01:00Z"
+    }
+  },
+  {
+    "titulo": "Error 400 en API de pedidos #0286",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Alex",
+    "tags": [
+      "search",
+      "ops"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-22T10:17:00Z"
+    }
+  },
+  {
+    "titulo": "Desalineación de permisos en dashboard #0287",
+    "prioridad": 1,
+    "estado": "cerrada",
+    "tecnico": "Irene",
+    "tags": [
+      "auth"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-28T01:50:00Z"
+    },
+    "minutosResolucion": 115,
+    "cerradaEn": {
+      "$date": "2025-10-28T03:45:00Z"
+    }
+  },
+  {
+    "titulo": "No se cargan datos en cola Kafka #0288",
+    "prioridad": 5,
+    "estado": "abierta",
+    "tecnico": "Nora",
+    "tags": [
+      "monitoring"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-07T23:41:00Z"
+    }
+  },
+  {
+    "titulo": "Desalineación de permisos en API de pedidos #0289",
+    "prioridad": 1,
+    "estado": "en_progreso",
+    "tecnico": "Lucia",
+    "tags": [
+      "data-quality"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-29T16:57:00Z"
+    }
+  },
+  {
+    "titulo": "Error 400 en cola Kafka #0290",
+    "prioridad": 2,
+    "estado": "en_progreso",
+    "tecnico": "Irene",
+    "tags": [
+      "security"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-01T09:13:00Z"
+    }
+  },
+  {
+    "titulo": "Desalineación de permisos en API de pedidos #0291",
+    "prioridad": 3,
+    "estado": "cerrada",
+    "tecnico": "Irene",
+    "tags": [
+      "data-quality"
+    ],
+    "creadaEn": {
+      "$date": "2025-11-05T04:07:00Z"
+    },
+    "minutosResolucion": 130,
+    "cerradaEn": {
+      "$date": "2025-11-05T06:17:00Z"
+    }
+  },
+  {
+    "titulo": "Caída de servicio en portal #0292",
+    "prioridad": 5,
+    "estado": "abierta",
+    "tecnico": "Alex",
+    "tags": [
+      "billing",
+      "backend"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-14T02:08:00Z"
+    }
+  },
+  {
+    "titulo": "Incidencia de compatibilidad en pasarela de pago #0293",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "Irene",
+    "tags": [
+      "billing",
+      "performance"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-27T08:41:00Z"
+    }
+  },
+  {
+    "titulo": "Duplicados detectados en pasarela de pago #0294",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "Sergio",
+    "tags": [
+      "performance"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-05T00:57:00Z"
+    }
+  },
+  {
+    "titulo": "Timeout al acceder a almacenamiento #0295",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "Nora",
+    "tags": [
+      "auth",
+      "streaming"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-13T03:41:00Z"
+    }
+  },
+  {
+    "titulo": "Desalineación de permisos en pasarela de pago #0296",
+    "prioridad": 3,
+    "estado": "en_progreso",
+    "tecnico": "Alex",
+    "tags": [
+      "data-quality",
+      "search"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-23T01:12:00Z"
+    }
+  },
+  {
+    "titulo": "Incidencia de compatibilidad en cola Kafka #0297",
+    "prioridad": 3,
+    "estado": "en_progreso",
+    "tecnico": "Alex",
+    "tags": [
+      "ops",
+      "billing",
+      "db"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-22T15:40:00Z"
+    }
+  },
+  {
+    "titulo": "Error 409 en pasarela de pago #0298",
+    "prioridad": 3,
+    "estado": "abierta",
+    "tecnico": "SinAsignar",
+    "tags": [
+      "backend"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-24T15:43:00Z"
+    }
+  },
+  {
+    "titulo": "Desalineación de permisos en API de pedidos #0299",
+    "prioridad": 4,
+    "estado": "abierta",
+    "tecnico": "Nora",
+    "tags": [
+      "storage",
+      "performance"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-03T00:59:00Z"
+    }
+  },
+  {
+    "titulo": "Timeout al acceder a módulo de facturas #0300",
+    "prioridad": 2,
+    "estado": "en_progreso",
+    "tecnico": "Alex",
+    "tags": [
+      "storage"
+    ],
+    "creadaEn": {
+      "$date": "2025-10-28T15:34:00Z"
+    }
+  }
+]
