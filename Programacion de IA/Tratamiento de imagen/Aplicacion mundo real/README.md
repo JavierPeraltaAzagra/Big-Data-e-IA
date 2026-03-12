@@ -14,6 +14,9 @@ Cada plaza se define con coordenadas en `xml/carpark_coords.xml` y se dibuja en 
 - Verde: `Libre`
 - Rojo: `Ocupado`
 
+## Resultado
+![alt text](result.png)
+
 ## Estructura del proyecto
 
 ```text
