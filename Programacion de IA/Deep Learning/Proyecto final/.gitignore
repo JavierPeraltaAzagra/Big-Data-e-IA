@@ -1,0 +1,10 @@
+# Ignore PDF files
+Catálogo de Proyectos Finales.pdf
+Proyecto Final UT5 La IA en el Mundo Real.pdf
+Proyecto Final UT5_ La IA en el Mundo Real.pdf
+
+# Ignore PowerPoint files
+Proyecto Final_ Detección de Neumonía.pptx
+
+# Ignore training logs
+logs/
