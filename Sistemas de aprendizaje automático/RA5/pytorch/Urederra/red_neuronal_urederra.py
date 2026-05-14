@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
 # Lectura del archivo csv y conversión a un dataframe
-df = pd.read_csv('/data/scratch/008/IA_BigData/datasets/pima-indians-diabetes.csv', delimiter = ',')
+df = pd.read_csv('/data/scratch/008/IA_BigData/u0080011/datasets/pima-indians-diabetes.csv', delimiter = ',')
 
 # Conversión de datos: de pandas a tensores en PyTorch
 X = df.iloc[: , 0:8]

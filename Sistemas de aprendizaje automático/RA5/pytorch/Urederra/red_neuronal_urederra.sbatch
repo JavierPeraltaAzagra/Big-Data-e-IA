@@ -5,8 +5,8 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2G
 #SBATCH --time=00:10:00
-#SBATCH --output=/data/scratch/008/IA_BigData/logs/red_neuronal_%j.out
-#SBATCH --chdir=/data/scratch/008/IA_BigData/src
+#SBATCH --output=/data/scratch/008/IA_BigData/u0080011/logs/red_neuronal_%j.out
+#SBATCH --chdir=/data/scratch/008/IA_BigData/u0080011/src
 
 # Limpiamos módulos cargados previamente
 module purge
