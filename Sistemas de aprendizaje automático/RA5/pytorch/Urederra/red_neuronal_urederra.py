@@ -5,6 +5,10 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
+torch.set_num_threads(4)
+
+print("Hilos CPU PyTorch:", torch.get_num_threads())
+
 # Lectura del archivo csv y conversión a un dataframe
 df = pd.read_csv('/data/scratch/008/IA_BigData/u0080011/datasets/pima-indians-diabetes.csv', delimiter = ',')
 
