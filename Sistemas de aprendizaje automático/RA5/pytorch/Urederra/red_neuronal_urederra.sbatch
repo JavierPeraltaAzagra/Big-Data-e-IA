@@ -2,8 +2,8 @@
 
 #SBATCH --job-name=red_neuronal_pima
 #SBATCH --partition=intel_skylake
-#SBATCH --cpus-per-task=1
-#SBATCH --mem=2G
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=8G
 #SBATCH --time=00:10:00
 #SBATCH --output=/data/scratch/008/IA_BigData/u0080011/logs/red_neuronal_%j.out
 #SBATCH --chdir=/data/scratch/008/IA_BigData/u0080011/src
