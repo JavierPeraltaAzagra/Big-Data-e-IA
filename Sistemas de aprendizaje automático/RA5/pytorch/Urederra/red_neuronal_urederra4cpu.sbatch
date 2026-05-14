@@ -22,6 +22,7 @@ source /data/scratch/008/IA_BigData/venv-ml/bin/activate
 echo "Trabajo Slurm para red neuronal PyTorch"
 echo "JOB ID: $SLURM_JOB_ID"
 echo "Nodo de ejecución: $SLURMD_NODENAME"
+echo "CPU asignados: $SLURM_CPUS_PER_TASK"
 echo "Directorio de trabajo: $(pwd)"
 echo "Python usado:"
 which python
