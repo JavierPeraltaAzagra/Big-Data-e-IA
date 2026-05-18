@@ -1,0 +1,12 @@
+x = 71
+Modelo menor (8 -> 128 -> 64 -> 32) -> 1
+Dataset columna salida categórica (hay que expresarla de forma numérica -> 0 o 1) adware y general_malware 1, benigno 0
+Para el ejercicio 4 mirar apuntes Moodle pg. 33 (poner en sbatch -> time -p Python red_neuronal_urederra_cpu1.py)
+Hacer un archivo nuevo por cada requisito (1 CPU, 2CPUs...)
+Para el 4a hacer un Jupyter notebook, apuntar a mano los tiempos y hacer gráfica para visualizar esos tiempos (listas:
+														real =[],
+														user =[],
+														sys = [],
+														cpu = [1,2,4,8,16]) mostrar captura código y grafica y decir que 																    se observa.
+4b lo mismo que el 4a pero con otros valores (los que pone en el pdf)
+Las librerías a instalar para el venv están en la pg.26
