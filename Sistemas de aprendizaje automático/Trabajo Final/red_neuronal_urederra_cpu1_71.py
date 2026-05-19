@@ -14,11 +14,20 @@ torch.set_num_threads(num_cpus)
 print("CPUs asignadas por Slurm:", num_cpus)
 
 # Lectura del archivo csv y conversión a un dataframe
-df = pd.read_csv('/data/scratch/008/IA_BigData/datasets/pima-indians-diabetes.csv', delimiter = ',')
+df = pd.read_csv('/data/scratch/008/IA_BigData/trabajo71/datasets71/TotalFeatures-ISCXFlowMeter.csv', delimiter = ',')
 
 # Conversión de datos: de pandas a tensores en PyTorch
-X = df.iloc[: , 0:8]
-y = df.iloc[: , 8]
+X = df.drop(columns=['class'])
+y = df['class']
+y = y.astype(str).str.strip().str.lower()
+
+# Convertimos las clases categóricas a números
+y = y.map({
+    'benign': 0,
+    'adware': 1,
+    'generalmalware': 1,
+    'ge': 1
+})
 
 # Convertimos los valores anteriores a Numpy
 X_np = X.to_numpy()
@@ -32,13 +41,11 @@ y_tensor = torch.tensor(y_np, dtype=torch.float32)
 y_tensor = y_tensor.view(-1, 1)  # también reshape(-1,1)
 
 # Definimos el modelo de red neuronal
-# Definimos el modelo de red neuronal
-# Definimos el modelo de red neuronal
 modelo = nn.Sequential(
     
     # CAPA 1
-    # 8 entradas y 128 neuronas
-    nn.Linear(8, 128, bias=True, dtype=torch.float32),
+    # 79 entradas y 128 neuronas
+    nn.Linear(X.shape[1], 128, bias=True, dtype=torch.float32),
     
     # Función de activación ReLU
     nn.ReLU(),

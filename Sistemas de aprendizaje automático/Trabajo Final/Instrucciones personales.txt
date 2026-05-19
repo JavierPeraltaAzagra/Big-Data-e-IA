@@ -10,3 +10,4 @@ Para el 4a hacer un Jupyter notebook, apuntar a mano los tiempos y hacer gráfic
 														cpu = [1,2,4,8,16]) mostrar captura código y grafica y decir que 																    se observa.
 4b lo mismo que el 4a pero con otros valores (los que pone en el pdf)
 Las librerías a instalar para el venv están en la pg.26
+PARA CADA GPU UTILIZAR 32GB, NO 120GB

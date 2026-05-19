@@ -6,10 +6,12 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
-# GPUs
-device = torch.device("cuda")
+# Número de hilos CPU que utilizará PyTorch
+num_cpus = int(os.environ.get("SLURM_CPUS_PER_TASK", 16))
+torch.set_num_threads(num_cpus)
 
-print("Nombre GPU:", torch.cuda.get_device_name(0))
+# Mostramos el número de hilos activos
+print("CPUs asignadas por Slurm:", num_cpus)
 
 # Lectura del archivo csv y conversión a un dataframe
 df = pd.read_csv('/data/scratch/008/IA_BigData/trabajo71/datasets71/TotalFeatures-ISCXFlowMeter.csv', delimiter = ',')
@@ -73,9 +75,6 @@ modelo = nn.Sequential(
     nn.Sigmoid()
 )
 
-# Movemos el modelo completo a GPU
-modelo = modelo.to(device)
-
 # definimos la función de pérdida
 loss_fn = nn.BCELoss()
 # definimos el optimizador
@@ -102,13 +101,9 @@ X_train_scaled = scaler_std.fit_transform(X_train)
 # Aplicar la transformación al conjunto de prueba (sin volver a ajustar)
 X_test_scaled = scaler_std.transform(X_test)
 
-# Convertimos arrays de numpy a tensor y los movemos a GPU
-X_train = torch.tensor(X_train_scaled, dtype=torch.float32).to(device)
-X_test  = torch.tensor(X_test_scaled, dtype=torch.float32).to(device)
-
-# Movemos también las etiquetas a GPU
-y_train = y_train.to(device)
-y_test = y_test.to(device)
+# Convertimos arrays de numpy a tensor.
+X_train = torch.tensor(X_train_scaled, dtype=torch.float32)
+X_test  = torch.tensor(X_test_scaled, dtype=torch.float32)
 
 # incio del entrenamiento
 # número de recorridos del dataset completo
