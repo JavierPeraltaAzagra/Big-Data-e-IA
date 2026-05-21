@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>To Do List</h1>
+    <ul id="task-list"></ul>
+    <form id="add-task-form">
+        <input type="text" id="new-task-input" placeholder="Add a new task...">
+        <button type="submit">Add Task</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
+</write_to_file>
+
+<write_to_file>
+<path>styles.css</path>
+<content>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f4f4f9;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type="text"] {
+    width: calc(100% - 60px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+</write_to_file>
+
+<write_to_file>
+<path>script.js</path>
+<content>
+let tasks = [];
+
+function addTask() {
+    const input = document.getElementById('new-task-input');
+    const taskText = input.value.trim();
+
+    if (taskText) {
+        tasks.push(taskText);
+        renderTasks();
+        input.value = '';
+    }
+}
+
+function renderTasks() {
+    const list = document.getElementById('task-list');
+    list.innerHTML = '';
+
+    tasks.forEach((task, index) => {
+        const li = document.createElement('li');
+        li.textContent = task;
+
+        const checkbox = document.createElement('input');
+        checkbox.type = 'checkbox';
+        checkbox.checked = false;
+        checkbox.addEventListener('change', () => {
+            if (checkbox.checked) {
+                tasks[index] = `Completed: ${task}`;
+            } else {
+                tasks.splice(index, 1);
+            }
+            renderTasks();
+        });
+
+        const deleteButton = document.createElement('button');
+        deleteButton.textContent = 'Delete';
+        deleteButton.addEventListener('click', () => {
+            tasks.splice(index, 1);
+            renderTasks();
+        });
+
+        li.appendChild(checkbox);
+        li.appendChild(deleteButton);
+
+        list.appendChild(li);
+    });
+}
+
+document.getElementById('add-task-form').addEventListener('submit', (e) => {
+    e.preventDefault();
+    addTask();
+});
+
+renderTasks();
+</write_to_file>
+
+<task_progress>
+- [x] Analyze requirements
+- [x] Set up necessary files
+- [ ] Implement main functionality
+- [ ] Handle edge cases
+- [ ] Test the implementation
+- [ ] Verify results
+</task_progress>
